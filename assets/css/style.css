@@ -9,7 +9,7 @@
 		padding:0;
 	}
 	h2{
-		font-size: 3.33vw;
+		font-size: 6vw;
 		/*font-size: 3em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
@@ -17,7 +17,7 @@
 		padding:0;
 	}
 	h3{
-		font-size: 3.19vw;
+		font-size: 6vw;
 		/*font-size: 3em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
@@ -25,7 +25,7 @@
 		padding:0;
 	}
 	h4{
-		font-size: 1.5vw;
+		font-size: 4.5vw;
 	}
 
 	/* Style for paragraphs
@@ -124,7 +124,7 @@
 	/* homepage catchphrase
 	*--------------------------------------- */
 	.homePagePhrase{
-		font-size: 1.665vw;
+		font-size: 2.9vw;
 		/*font-size: 1.5em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 	}
@@ -138,13 +138,13 @@
 	/* education divs
 	*--------------------------------------- */
 	#education1{
-		font-size: 1.11vw;
+		font-size: 4vw;
 		/*font-size: 1em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 	}
 	#education2{
-		font-size: 0.8325;
+		font-size: 3vw;
 		/*font-size: 0.75em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
@@ -153,13 +153,13 @@
 	/* project divs
 	*--------------------------------------- */
 	.project{
-		font-size: 0.999vw;
+		font-size: 3vw;
 		/*font-size: 0.9em;*/
 	}
 	.project a{
 		color: black;
 		text-decoration: underline;
-		font-size: 1.332vw;
+		font-size: 4vw;
 		/*font-size: 1.2em;*/
 		transition: all 0.5s ease;
 	}
@@ -172,13 +172,14 @@
 	/* experience divs
 	*--------------------------------------- */
 	.work{
-		font-size: 0.999vw;
+		font-size: 3vw;
 		/*font-size: 0.9em;*/
 	}
 	.work a{
 		color: black;
 		text-decoration: underline;
-		font-size: 1.2em;
+		/*font-size: 1.2em;*/
+		font-size: 4vw;
 		transition: all 0.5s ease;
 	}
 	.work a:hover{
@@ -189,7 +190,8 @@
 	.work u{
 		color: black;
 		text-decoration: underline;
-		font-size: 1.2em;
+		/*font-size: 1.2em;*/
+		font-size: 4vw;
 	}
 
 	/* email div
