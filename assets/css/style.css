@@ -1,25 +1,31 @@
 /* Style for our header texts
 	* --------------------------------------- */
 	h1{
-		font-size: 7em;
+		font-size: 7.77vw;
+		/*font-size: 7em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 		margin:0;
 		padding:0;
 	}
 	h2{
-		font-size: 3em;
+		font-size: 3.33vw;
+		/*font-size: 3em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 		margin:0 auto;
 		padding:0;
 	}
 	h3{
-		font-size: 3em;
+		font-size: 3.19vw;
+		/*font-size: 3em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 		margin:0;
 		padding:0;
+	}
+	h4{
+		font-size: 1.5vw;
 	}
 
 	/* Style for paragraphs
@@ -31,6 +37,9 @@
 	/* Style for buttons
 	* --------------------------------------- */
 	button{
+		/*width: 10vw;*/
+		/*height: 2vh;*/
+		/*font-size: 0.90243vw;*/
 		width: 8em;
 		height: 2.5em;
 		color: #FFF;
@@ -115,7 +124,8 @@
 	/* homepage catchphrase
 	*--------------------------------------- */
 	.homePagePhrase{
-		font-size: 1.5em;
+		font-size: 1.665vw;
+		/*font-size: 1.5em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 	}
 
@@ -128,12 +138,14 @@
 	/* education divs
 	*--------------------------------------- */
 	#education1{
-		font-size: 1em;
+		font-size: 1.11vw;
+		/*font-size: 1em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 	}
 	#education2{
-		font-size: 0.75em;
+		font-size: 0.8325;
+		/*font-size: 0.75em;*/
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 	}
@@ -141,12 +153,14 @@
 	/* project divs
 	*--------------------------------------- */
 	.project{
-		font-size: 0.9em;
+		font-size: 0.999vw;
+		/*font-size: 0.9em;*/
 	}
 	.project a{
 		color: black;
 		text-decoration: underline;
-		font-size: 1.2em;
+		font-size: 1.332vw;
+		/*font-size: 1.2em;*/
 		transition: all 0.5s ease;
 	}
 	.project a:hover{
@@ -158,7 +172,8 @@
 	/* experience divs
 	*--------------------------------------- */
 	.work{
-		font-size: 0.9em;
+		font-size: 0.999vw;
+		/*font-size: 0.9em;*/
 	}
 	.work a{
 		color: black;
