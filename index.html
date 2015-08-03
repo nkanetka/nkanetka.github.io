@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<!-- Hey there! Looks like you came to see my source. I am not the best developer but I am continuosly learning and applying what I learn. Most of the website is run using simple HTML, CSS, jQuery and fullPage.js (found here: https://github.com/alvarotrigo/fullPage.js). I hope you enjoyed the site and thanks for your time! -->
+<html>
+	<head>
+		<!-- Normal head setup -->
+		<meta charset="UTF-8" />
+		<meta name="author" content="Nehal Kanetkar" />
+		<meta name="description" content="Nehal Kanetkar's Website." />
+		<meta name="keywords"  content="nehal,nehal kanetkar,Nehal,Nehal Kanetkar,pilot developer" />
+		<meta name="Resource-type" content="Document" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nehal Kanetkar</title>
+
+		<!-- CSS Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="assets/css/foundation.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+
+		<!-- javaScript & jquery Files -->
+		<script type="text/javascript" src="assets/js/modernizr.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.tooltipster.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+		<script type="text/javascript">$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+				controlArrows:false,
+				slidesNavigation:true,
+				recordHistory:false,
+
+				afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
+            		var loadedSlide = $(this);
+
+            		// Setting the education details
+            		if(index == 2 && slideIndex == 1){
+            			setTimeout(setEducation(), 2000);
+            		}
+            		function setEducation() {
+            			// Need to work on getting the transition happening
+            			var link = document.getElementById("uw");
+            			var img = document.getElementById("image");
+            			link.href = "https://uwaterloo.ca/systems-design-engineering/";
+            			img.src = "assets/img/UniversityOfWaterloo_logo_horiz_bk.png";
+                		document.getElementById("education1").innerHTML = "I am currently studying Systems Design Engineering at the University of Waterloo.";
+                		document.getElementById("education2").innerHTML = "BASc Systems Design Engineering<br>2013-2018 (Expected)";
+            		}
+        		}
+			});
+			$(document).on('click', '#moveToEducation', function(){
+  				$.fn.fullpage.moveTo(2, 1);
+			});
+			$(document).on('click', '#moveToProjects', function(){
+  				$.fn.fullpage.moveTo(2, 2);
+			});
+			$(document).on('click', '#moveToExperience', function(){
+  				$.fn.fullpage.moveTo(2, 3);
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div id="fullpage">
+			<!-- Home view -->
+			<div class="section" id="section0">
+				<h1>Nehal Kanetkar</h1>
+				<h6 class="homePagePhrase">Developer. Aspiring Engineer. Pilot.</h6>
+			</div>
+
+			<!-- About views -->
+			<div class="section" id="section1">
+				<!-- First page -->
+				<div class="slide" id="slide1">
+					<h2>About Me</h2>
+					<button id="moveToEducation">Education</button>
+					<button id="moveToProjects">Projects</button>
+					<button id="moveToExperience">Experience</button>
+					<a href="assets/Nehal_Kanetkar_Resume.pdf"><button>Resume</button></a>
+	    		</div>
+	    		<!-- Education Page -->
+	    		<div class="slide" id="slide2">
+	    			<div class="links"><a id="uw" href=""><img id="image" src="" height="160" width="400"></a></div>
+	    			<p id="education1">Education</p>
+	    			<p id="education2"></p>
+	    		</div>
+	    		<!-- Projects Page -->
+	    		<div class="slide" id="slide3">
+	    			<h3>Projects</h3>
+	    				<!-- Programming related projects -->
+	    				<h4>Development</h4>
+	    					<p class="project"><a href="https://github.com/nkanetka/Flight-Time-iOS" target="_blank">Flight-Time-iOS</a>
+	    						<br>A way to log airtime and flight time using your phone.
+	    					</p>
+	    					<p class="project"><a href="https://github.com/nkanetka/Star-Tracking-Mount" target="_blank">Star-Tracking-Mount</a>
+	    						<br>A tripod mount to get long exposures of stars without star trails.
+	    					</p>
+	    					<p class="project"><a href="" target="_blank">nkanetka.github.io</a>
+	    						<br>Personal website.
+	    					</p>
+
+	    				<!-- Photography -->
+	    				<h4>Photography</h4>
+	    					<p class="project"><a href="http://www.jetphotos.net/showphotos.php?userid=45866" target="_blank">Jetphotos.net</a>
+	    						<br>A collection of my published aviation photography.
+	    					</p>
+	    					<p class="project"><a href="https://www.flickr.com/photos/nkanetka/" target="_blank">Flickr/nkanetka</a>
+	    						<br>A sample of some of my non-aviation photography.
+	    					</p>	
+	    		</div>
+	    		<!-- Work Experience page -->
+	    		<div class="slide" id="slide4">
+	    			<h3>Experience</h3>
+	    				<!-- Work Experience -->
+	    				<h4>Work</h4>
+	    					<p class="work"><a href="http://www.theweathernetwork.com/" target="_blank">The Weather Network</a>
+	    						<br>Research & Development Software Depeloper
+	    						<br>May 2015 - Present
+	    					</p>
+	    					<p class="work"><a href="https://www.cibc.com" target="_blank">Canadian Imperial Bank of Commerce</a>
+	    						<br>Technical Analyst
+	    						<br>September 2014 - December 2014
+	    					</p>
+	    					<p class="work"><a href="https://uwaterloo.ca/humans-complex-systems-lab/about-humans-complex-systems-lab" target="_blank">University of Waterloo HCOM Lab</a>
+	    						<br>Research Assistant
+	    						<br>August 2014 - April 2015
+	    					</p>
+
+	    				<!-- Flying Experience -->
+	    				<h4>Flying</h4>
+	    					<p class="work"><u>Pilot</u>
+	    						<br>Canadian Private Pilot License with Night Rating.
+	    						<br>Currently working towards an IFR rating.
+	    						<br>Approximately 120 hours total time.
+	    					</p>
+	    		</div>
+			</div>
+
+			<!-- Contact view -->
+			<div class="section" id="section2">
+				<div class="section2Container">
+					<h3>Contact</h3>
+					<p>Thanks for dropping by! Take a look at some of my new projects or get in touch with me below.</p>
+					<div class="links">
+						<!-- GitHub -->
+						<a href="https://github.com/nkanetka" target="_blank"><img src="assets/img/icons/GitHub-Mark-64px.png" height="32" width="32" alt="GitHub"></a>
+
+						<!-- Flickr -->
+						<a href="https://www.flickr.com/photos/nkanetka/" target="_blank"><img src="assets/img/icons/flickr-circle-64.png" height="32" width="32" alt="Flickr"></a>
+
+						<!-- Email -->
+						<a href="mailto:nkanetka@uwaterloo.ca"><img src="assets/img/icons/mailto-64.png" height="32" width="32" alt="Email"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
