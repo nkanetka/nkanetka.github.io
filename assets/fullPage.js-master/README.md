@@ -2,7 +2,7 @@
 
 ![preview](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png)
 ![compatibility](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/compatible.gif)
-![fullPage.js version](http://img.shields.io/badge/fullPage.js-v2.6.7-brightgreen.svg)
+![fullPage.js version](http://img.shields.io/badge/fullPage.js-v2.7.2-brightgreen.svg)
 [![License](http://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 7Kb gziped!
 
@@ -26,6 +26,7 @@ Would you like to have a website using fullpage.js functionality but you don't k
 - [Options](https://github.com/alvarotrigo/fullPage.js#options)
 - [Methods](https://github.com/alvarotrigo/fullPage.js#methods)
 - [Lazy loading](https://github.com/alvarotrigo/fullPage.js#lazy-loading)
+- [Creating smaller sections](https://github.com/alvarotrigo/fullPage.js#creating-smaller-sections)
 - [Callbacks](https://github.com/alvarotrigo/fullPage.js#callbacks)
 - [Resources](https://github.com/alvarotrigo/fullPage.js#resources)
 - [Who is using fullpage.js](https://github.com/alvarotrigo/fullPage.js#who-is-using-fullpagejs)
@@ -38,6 +39,10 @@ Let's make this a great plugin to make people's lives easier!
 fullPage.js is fully functional on all modern browsers, as well as some old ones such as Internet Explorer 8, 9, Opera 12, etc.
 It works with browsers with CSS3 support and with the ones which don't have it, making it ideal for old browsers compatibility.
 It also provides touch support for mobile phones, tablets and touch screen computers.
+
+[![Browserstack](http://wallpapers-for-ipad.com/fullpage/imgs3/logos/browserstack.png)](http://www.browserstack.com/)
+
+Special thanks to [Browserstack](http://www.browserstack.com/) for supporting fullpage.js.
 
 ## Usage
 As you can see in the example files, you will need to include:
@@ -138,6 +143,7 @@ $(document).ready(function() {
 		scrollingSpeed: 700,
 		autoScrolling: true,
 		fitToSection: true,
+		fitToSectionDelay: 1000,
 		scrollBar: false,
 		easing: 'easeInOutCubic',
 		easingcss3: 'ease',
@@ -182,7 +188,7 @@ $(document).ready(function() {
 ```
 
 ### Creating links to sections or slides
-If you are using fullPage.js with anchor links for the sections (using the `anchors` option), then you will be able to use anchor links also to navigate directly to a certain slide inside a section.
+If you are using fullPage.js with anchor links for the sections (using the `anchors` option or the attribute `data-anchor` in each section), then you will be able to use anchor links also to navigate directly to a certain slide inside a section.
 
 This would be an example of a link with an anchor: http://alvarotrigo.com/fullPage/#secondPage/2 (which is the URL you will see once you access to that section/slide manually)
 Notice the last part of the URL ends in `#secondPage/2`.
@@ -194,6 +200,7 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		anchors:['firstPage', 'secondPage', 'thirdPage']
 	});
+});
 ```
 
 The anchor at the end of the URL `#secondPage/2` defines the section and slide of destination respectively. In the previous URL, the section of destination will be the one defined with the anchor `secondPage` and the slide will be the 2nd slide, as we are using the index `2` for it. (the fist slide of a section has index 0, as technically it is a section).
@@ -210,7 +217,20 @@ We could have used a custom anchor for the slide instead of its index if we woul
 ```
 In this last case, the URL we would use would be `#secondPage/slide3`, which is the equivalent to our previous `#secondPage/2`.
 
+Note that section anchors can also be defined in the same way, by using the `data-anchor` attribute, if no `anchors` array is provided.
+
 **Be careful!** `data-anchor` tags can not have the same value as any ID element on the site (or NAME element for IE).
+
+### Creating smaller sections
+It is possible to use sections or slides which don't take the whole viewport height resulting in smaller sections. This is ideal for footers.
+It is important to realise that it doesn't make sense to have all of your sections using this feature. If there is more than one section in the initial load of the site, the plugin won't scroll at all to see the next one as it will be already in the viewport.
+
+To create smaller sections just use the class `fp-auto-height` in the section you want to apply it. It will then take the height defined by your section/slide content.
+
+```html
+<div class="section">Whole viewport</div>
+<div class="section fp-auto-height">Auto height</div>
+```
 
 ## Options
 
@@ -231,6 +251,7 @@ $('#fullpage').fullpage({
 ```
 
 - `anchors`: (default `[]`) Defines the anchor links (#example) to be shown on the URL for each section. Anchors value should be unique. The position of the anchors in the array will define to which sections the anchor is applied. (second position for second section and so on). Using anchors forward and backward navigation will also be possible through the browser. This option also allows users to bookmark a specific section or slide. **Be careful!** anchors can not have the same value as any ID element on the site (or NAME element for IE).
+Now anchors can be defined directly in the HTML structure by using the attribute `data-anchor` as explained here.
 
 - `lockAnchors`: (default `false`). Determines whether anchors in the URL will have any effect at all in the plugin. You can still using anchors internally for your own functions and callbacks, but they won't have any effect in the scrolling of the site. Useful if you want to combine fullPage.js with other plugins using anchor in the URL.
 
@@ -252,6 +273,9 @@ It requires the file `vendors/jquery.easings.min.js` or [jQuery UI](http://jquer
 - `autoScrolling`: (default `true`) Defines whether to use the "automatic" scrolling or the "normal" one. It also has affects the way the sections fit in the browser/device window in tablets and mobile phones.
 
 - `fitToSection`: (default `true`). Determines whether or not to fit sections to the viewport or not. When set to `true` the current active section will always fill the whole viewport. Otherwise the user will be free to stop in the middle of a section (when )
+
+- `fitToSectionDelay`: (default 1000). If `fitToSection` is set to true, this delays
+the fitting by the configured milliseconds.
 
 - `scrollBar`: (default `false`). Determines whether to use scrollbar for the site or not. In case of using scroll bar, the `autoScrolling` functionality will still working as expected. The user will also be free to scroll the site with the scroll bar and fullPage.js will fit the section in the screen when scrolling finishes.
 
@@ -682,9 +706,11 @@ If you want your page to be listed here. Please <a href="mailto:alvaro@alvarotri
 - http://www.britishairways.com/en-gb/information/travel-classes/experience-our-cabins
 - http://www.sony-asia.com/microsite/mdr-10/
 - http://www.saltaboombox.com.ar
+- http://www.yourprimer.com/
 - http://www.battlefield.com/
 - http://www.kibey.com/
 - http://www.newjumoconcept.com/
+- http://medoff.ua/en/
 - http://promo.prestigio.com/grace1/
 - http://www.mi.com/shouhuan
 - https://moneytree.jp/
