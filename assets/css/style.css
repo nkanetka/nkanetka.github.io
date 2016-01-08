@@ -2,7 +2,7 @@
 	* --------------------------------------- */
 	h1{
 		/*font-size: 7.77vw;*/
-		font-size: 7em;
+		font-size: 5em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 		margin:0;
@@ -26,6 +26,11 @@
 	}
 	h4{
 		/*font-size: 4.5vw;*/
+	}
+	@media screen and (min-width: 739px){
+		.nehal{
+			font-size: 7em;
+		}
 	}
 
 	/* Style for paragraphs
@@ -78,6 +83,8 @@
 	.section{
 		vertical-align: middle;
 		text-align:center;
+		min-height: 520px;
+		min-width: 210px;
 	}
 
 
@@ -148,6 +155,12 @@
 		transition: all 0.5s ease;
 	}
 
+	@media screen and (max-height: 275px), screen and (max-width: 200px){
+		#section0 img{
+			display: none;
+		}
+	}
+
 	/* section2 div...not working
 	*--------------------------------------- */
 	.section2Container{
@@ -157,17 +170,22 @@
 
 	/* About me paragraph 
 	*--------------------------------------- */
-	.aboutMe{
+	#aboutMe{
 		font-size: 1em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
 		width: 50%;
 		margin: auto;
 	}
+	@media screen and (max-width: 475px), screen and (max-height: 610px){
+		#aboutMe{
+			font-size: 0.5em;
+		}
+	}
 
 	/* education divs
 	*--------------------------------------- */
-	#education1{
+	.education1{
 		/*font-size: 4vw;*/
 		font-size: 1em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -175,11 +193,19 @@
 		width: 50%;
 		margin: auto;
 	}
-	#education2{
+	.education2{
 		/*font-size: 3vw;*/
 		font-size: 0.75em;
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 		color: #000;
+	}
+	@media screen and (max-width: 475px), screen and (max-height: 610px){
+		.education1{
+			font-size: 0.75em;
+		}
+		.education2{
+			font-size: 0.4em;
+		}
 	}
 
 	/* project divs
@@ -199,6 +225,11 @@
 		color: rgb(179,179,179);
 		/*color: rgb(217,30,24);*/
 		transition:all 0.5s ease;
+	}
+	@media screen and (min-width: 475px), screen and (min-height: 545px){
+		#slide3{
+			font-size: 0.8em;
+		}
 	}
 
 	/* experience divs
@@ -224,6 +255,11 @@
 		text-decoration: underline;
 		font-size: 1.2em;
 		/*font-size: 4vw;*/
+	}
+	@media screen and (min-width: 475px), screen and (min-height: 545px){
+		#slide4{
+			font-size: 0.8em;
+		}
 	}
 
 	/* email div

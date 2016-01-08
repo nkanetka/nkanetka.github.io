@@ -9,7 +9,7 @@
 		<!-- Normal head setup -->
 		<meta charset="UTF-8" />
 		<meta name="author" content="Nehal Kanetkar" />
-		<meta name="description" content="Nehal Kanetkar's Website." />
+		<meta name="description" content="A personal portfolio website that displays my personal projects, work experience and education" />
 		<meta name="keywords"  content="nehal,nehal kanetkar,Nehal,Nehal Kanetkar,pilot developer" />
 		<meta name="Resource-type" content="Document" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,18 +40,18 @@
             		var loadedSlide = $(this);
 
             		// Setting the education details
-            		if(index == 2 && slideIndex == 1){
-            			setTimeout(setEducation(), 2000);
-            		}
-            		function setEducation() {
-            			// Need to work on getting the transition happening
-            			var link = document.getElementById("uw");
-            			var img = document.getElementById("image");
-            			link.href = "https://uwaterloo.ca/systems-design-engineering/";
-            			img.src = "assets/img/UniversityOfWaterloo_logo_horiz_bk.png";
-                		document.getElementById("education1").innerHTML = "I am currently studying Systems Design Engineering at the University of Waterloo.<br>Systems Design is an interdisciplinary engineering focusing on problem solving with design. In essence, System Design Engineering allows me to solve problems from more than just a technical standpoint.";
-                		document.getElementById("education2").innerHTML = "BASc Systems Design Engineering<br>2013-2018 (Expected)";
-            		}
+            		// if(index == 2 && slideIndex == 1){
+            		// 	setTimeout(setEducation(), 2000);
+            		// }
+            		// function setEducation() {
+            		// 	// Need to work on getting the transition happening
+            		// 	var link = document.getElementById("uw");
+            		// 	var img = document.getElementById("image");
+            		// 	link.href = "https://uwaterloo.ca/systems-design-engineering/";
+            		// 	img.src = "assets/img/UniversityOfWaterloo_logo_horiz_bk.png";
+              //   		document.getElementById("education1").innerHTML = "I am currently studying Systems Design Engineering at the University of Waterloo.<br>Systems Design is an interdisciplinary engineering focusing on problem solving with design. In essence, System Design Engineering allows me to solve problems from more than just a technical standpoint.";
+              //   		document.getElementById("education2").innerHTML = "BASc Systems Design Engineering<br>2013-2018 (Expected)";
+            		// }
         		}
 			});
 			$(document).on('click', '#downArrow', function(){
@@ -81,6 +81,11 @@
  				$('.work').css('font-size',3+'vw');
  				$('.work > a').css('font-size',4+'vw');
  				$('.work > u').css('font-size',4+'vw');
+
+ 				// if(jQuery(window).width <= 320){
+ 				// 	$('.downArrow').css('height',0+'vw');
+ 				// 	$('.downArrow').css('width',0+'vw');
+ 				// }
 			}
 		});
 		</script>
@@ -89,9 +94,9 @@
 		<div id="fullpage">
 			<!-- Home view -->
 			<div class="section" id="section0">
-				<h1>Nehal Kanetkar</h1>
+				<h1 class="nehal">Nehal Kanetkar</h1>
 				<h6 class="homePagePhrase">Developer. Aspiring Engineer. Pilot.</h6>
-				<a id="downArrow"><img src="assets/img/icons/black28.png" height="64" width="64"></a>
+				<a id="downArrow"><img src="assets/img/icons/black28.png" height="64vw" width="64vw"></a>
 			</div>
 
 			<!-- About views -->
@@ -99,7 +104,7 @@
 				<!-- First page -->
 				<div class="slide" id="slide1">
 					<h2>About Me</h2>
-					<p class="aboutMe">Welcome! I am currently in 2B at the University of Waterloo. My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. Click one of the buttons below to learn more about my education, side projects, where I have worked or my resume.</p>
+					<p id="aboutMe">Welcome! I am currently in 2B at the University of Waterloo. My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. Click one of the buttons below to learn more about my education, side projects, where I have worked or my resume.</p>
 					<button id="moveToEducation">Education</button>
 					<button id="moveToProjects">Projects</button>
 					<button id="moveToExperience">Experience</button>
@@ -107,15 +112,15 @@
 	    		</div>
 	    		<!-- Education Page -->
 	    		<div class="slide" id="slide2">
-	    			<div class="links"><a id="uw" href="" target="_blank"><img id="image" src="" height="160" width="400"></a></div>
-	    			<p id="education1">Education</p>
-	    			<p id="education2"></p>
+	    			<div class="links"><a id="uw" href="https://uwaterloo.ca/systems-design-engineering/" target="_blank"><img id="image" src="assets/img/UniversityOfWaterloo_logo_horiz_bk.png" height="160" width="400"></a></div>
+	    			<p class="education1">I am currently studying Systems Design Engineering at the University of Waterloo.<br>Systems Design is an interdisciplinary engineering focusing on problem solving with design. In essence, System Design Engineering allows me to solve problems from more than just a technical standpoint.</p>
+	    			<p class="education2">BASc Systems Design Engineering<br>2013-2018 (Expected)</p>
 	    		</div>
 	    		<!-- Projects Page -->
 	    		<div class="slide" id="slide3">
-	    			<h3>Projects</h3>
+	    			<h3 class="projectHeading3">Projects</h3>
 	    				<!-- Programming related projects -->
-	    				<h4>Development</h4>
+	    				<h4 class="projectHeading4">Development</h4>
 	    					<p class="project"><a href="https://github.com/nkanetka/Flight-Time-iOS" target="_blank">Flight-Time-iOS</a>
 	    						<br>A way to log airtime and flight time using your phone.
 	    					</p>
@@ -129,10 +134,10 @@
 	    				<!-- Photography -->
 	    				<h4>Photography</h4>
 	    					<p class="project"><a href="http://www.jetphotos.net/showphotos.php?userid=45866" target="_blank">Jetphotos.net</a>
-	    						<br>A collection of published aviation photography.
+	    						<br>A collection of published aviation photographs.
 	    					</p>
 	    					<p class="project"><a href="https://www.flickr.com/photos/nkanetka/" target="_blank">Flickr/nkanetka</a>
-	    						<br>A sample of non-aviation photography.
+	    						<br>A sample of non-aviation photographs.
 	    					</p>	
 	    		</div>
 	    		<!-- Work Experience page -->
@@ -142,7 +147,7 @@
 	    				<h4>Work</h4>
 	    					<p class="work"><a href="http://www.theweathernetwork.com/" target="_blank">The Weather Network</a>
 	    						<br>Research & Development Software Developer
-	    						<br>May 2015 - Present
+	    						<br>May 2015 - September 2015
 	    					</p>
 	    					<p class="work"><a href="https://www.cibc.com" target="_blank">Canadian Imperial Bank of Commerce</a>
 	    						<br>Technical Analyst
