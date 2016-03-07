@@ -88,6 +88,13 @@
  				// 	$('.downArrow').css('width',0+'vw');
  				// }
 			}
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 50) {
+					$('#downArrow').fadeOut();
+				} else {
+					$('#downArrow').fadeIn();
+				}
+			})
 		});
 		</script>
 	</head>
