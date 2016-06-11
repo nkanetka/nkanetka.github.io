@@ -95,8 +95,36 @@
 					$('#downArrow').fadeIn();
 				}
 			})
+
+			var onCoop = false;
+			var workPlace = "the Canon Innovation Labs";
+			var coopText = "Welcome! I am currently on coop at " + workPlace + ". My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. Click one of the buttons below to learn more about my education, side projects, where I have worked or my resume.";
+			var schoolText = "Welcome! I am currently in 3A at the University of Waterloo. My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. Click one of the buttons below to learn more about my education, side projects, where I have worked or my resume.";
+
+			if (onCoop) {
+				// On a coop term
+				document.getElementById("aboutMe").innerHTML = coopText;
+			} else {
+				// At School
+				document.getElementById("aboutMe").innerHTML = schoolText;
+			}
 		});
 		</script>
+		<!-- // <script type="text/javascript">
+		// // Sets the correct work text by looking at the flag
+		// 	var coop = false;
+		// 	var workPlace = "the Canon Innovation Labs";
+		// 	var coopText = "Welcome! I am currently on coop at " + workPlace + ". My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. Click one of the buttons below to learn more about my education, side projects, where I have worked or my resume.";
+		// 	var schoolText = "Welcome! I am currently in 3A at the University of Waterloo. My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. Click one of the buttons below to learn more about my education, side projects, where I have worked or my resume.";
+
+		// 	if (coop) {
+		// 		// On a coop term
+		// 		document.getElementById("aboutMe").innerHTML = coopText;
+		// 	} else {
+		// 		// At School
+		// 		document.getElementById("aboutMe").innerHTML = schoolText;
+		// 	}
+		// </script> -->
 	</head>
 	<body>
 		<div id="fullpage">
@@ -114,7 +142,7 @@
 					<h2>About Me</h2>
 					<!-- I am currently in 3A at the University of Waterloo. -->
 	    			<!-- I am currently on coop at Canon Innovation Labs. -->
-					<p id="aboutMe">Welcome! I am currently in 3A at the University of Waterloo. My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. Click one of the buttons below to learn more about my education, side projects, where I have worked or my resume.</p>
+					<p id="aboutMe"></p>
 					<button id="moveToEducation">Education</button>
 					<button id="moveToProjects">Projects</button>
 					<button id="moveToExperience">Experience</button>
@@ -137,7 +165,7 @@
 	    					<p class="project"><a href="https://github.com/nkanetka/Star-Tracking-Mount" target="_blank">Star-Tracking-Mount</a>
 	    						<br>A tripod mount to get long exposures of stars without star trails.
 	    					</p>
-	    					<p class="project"><a href="https://github.com/nkanetka/Flight-Visualization" target="_blank">Flight-Visualization</a>
+	    					<p class="project"><a href="http://nkanetka.github.io/Flight-Visualization" target="_blank">Flight-Visualization</a>
 	    						<br>A visualization of Porter Airlines flights during one day.
 	    					</p>
 	    					<p class="project"><a href="https://github.com/nkanetka/nkanetka.github.io" target="_blank">nkanetka.github.io</a>
@@ -180,7 +208,7 @@
 	    					<p class="work"><u>Pilot</u>
 	    						<br>Canadian Private Pilot License with Night Rating.
 	    						<br>Currently working towards an IFR rating.
-	    						<br>Approximately 120 hours total time.
+	    						<br>Approximately 125 hours total time.
 	    					</p>
 	    		</div>
 			</div>
