@@ -183,6 +183,14 @@
 		}
 	}
 
+	.fp-controlArrow.fp-prev{
+		border-color: transparent #000 transparent transparent;
+	}
+
+	.fp-controlArrow.fp-next{
+		border-color: transparent transparent transparent #000;
+	}
+
 	/* education divs
 	*--------------------------------------- */
 	.education1{

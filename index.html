@@ -18,8 +18,8 @@
 		<!-- CSS Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="assets/css/foundation.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 		<!-- javaScript & jquery Files -->
 		<script type="text/javascript" src="assets/js/modernizr.js"></script>
@@ -30,7 +30,7 @@
 		<script type="text/javascript">$(document).ready(function() {
 			$('#fullpage').fullpage({
 				verticalCentered: true,
-				controlArrows:false,
+				controlArrows:true,
 				slidesNavigation:true,
 				recordHistory:false,
 				fitToSection:true,
@@ -99,11 +99,16 @@
  				// }
 			}
 			$(window).scroll(function() {
-				if ($(this).scrollTop() > 50) {
-					$('#downArrow').fadeOut();
-				} else {
-					$('#downArrow').fadeIn();
-				}
+				var scrollTop = $(this).scrollTop();
+				var height = $(this).height();
+
+				$('.nehal, .homePagePhrase, #downArrow').css({
+        			'opacity': ((height - (scrollTop*2)) / height)
+    			});
+
+    			$('.fp-controlArrow.fp-prev, .fp-controlArrow.fp-next').css({
+        			'opacity': 1 - ((height - (scrollTop*2)) / height)
+    			});
 			})
 
 			var onCoop = true;
@@ -196,6 +201,10 @@
 	    			<h3>Experience</h3>
 	    				<!-- Work Experience -->
 	    				<h4>Work</h4>
+	    					<p class="work"><a href="https://itunes.apple.com/ca/app/nanoleaf-smarter-series-for/id1049333656?mt=8#" target="_blank">Nanoleaf</a>
+	    						<br>iOS Developer
+	    						<br>August 2016 - December 2016
+	    					</p>
 	    					<p class="work"><a href="https://canonlabs.io/" target="_blank">Canon Innovation Labs</a>
 	    						<br>Rapid Prototye Developer & iOS Developer
 	    						<br>January 2016 - April 2016
@@ -203,10 +212,6 @@
 	    					<p class="work"><a href="http://www.theweathernetwork.com/" target="_blank">The Weather Network</a>
 	    						<br>Research & Development Software Developer
 	    						<br>May 2015 - September 2015
-	    					</p>
-	    					<p class="work"><a href="https://www.cibc.com" target="_blank">Canadian Imperial Bank of Commerce</a>
-	    						<br>Technical Analyst
-	    						<br>September 2014 - December 2014
 	    					</p>
 	    					<p class="work"><a href="https://uwaterloo.ca/humans-complex-systems-lab/about-humans-complex-systems-lab" target="_blank">University of Waterloo HCOM Lab</a>
 	    						<br>Research Assistant
@@ -218,7 +223,7 @@
 	    					<p class="work"><u>Pilot</u>
 	    						<br>Canadian Private Pilot License with Night Rating.
 	    						<br>Currently working towards an IFR rating.
-	    						<br>Approximately 125 hours total time.
+	    						<br>Approximately 135 hours total time.
 	    					</p>
 	    		</div>
 			</div>
