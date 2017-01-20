@@ -97,16 +97,20 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $link-color;
   text-decoration: none;
-  border-bottom: solid 4px $background-color;
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
 
   &:hover {
-    color: $text-color;
+    color: $grey-color;
+    opacity: 0.5;
+  }
+}
+
+
+.page-link {
+  border-bottom: solid 4px $background-color;
+
+  &:hover {
     border-bottom: solid 4px $text-color;
   }
 }
