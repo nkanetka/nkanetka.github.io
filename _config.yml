@@ -16,7 +16,7 @@
 title: Nehal Kanetkar
 email: nkanetka@uwaterloo.ca
 description: > # A personal portfolio website that displays my personal projects, work experience and education.
-footer_tag: "Designed & Developed by Nehal Kanetkar" #[Nehal Kanetkar]({{ site.url }}).
+footer_tag: "Designed & Developed by Nehal Kanetkar"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KanetkarNehal

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: experience-projects
 title: Projects
 permalink: /projects/
 ---
