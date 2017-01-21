@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+  	{{ content }}
+  	<div class="row">
+      {% if page.title == "Experience" %}
+        {% for experience in site.categories.jobs %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% assign innerloopindex = forloop.index | modulo: 2 %}
+          {% if loopindex == 1 %}
+            <div class="column">
+              {% if innerloopindex == 1 %}
+                <a class="grid-link"><div class="two item"><span><h1>{{ experience.title | escape }}</h1><h6>{{ experience.role | escape }}</h6></span></div></a>
+              {% else %}
+                <a class="grid-link"><div class="one item"><span><h1>{{ experience.title | escape }}</h1><h6>{{ experience.role | escape }}</h6></span></div></a>
+              {% endif %}
+          {% else %}
+              {% if innerloopindex == 1 %}
+                <a class="grid-link"><div class="two item"><span><h1>{{ experience.title | escape }}</h1><h6>{{ experience.role | escape }}</h6></span></div></a>
+              {% else %}
+                <a class="grid-link"><div class="one item"><span><h1>{{ experience.title | escape }}</h1><h6>{{ experience.role | escape }}</h6></span></div></a>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% for project in site.categories.projects %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% assign innerloopindex = forloop.index | modulo: 2 %}
+          {% if loopindex == 1 %}
+            <div class="column">
+              {% if innerloopindex == 1 %}
+                <a class="grid-link"><div class="two item"><span><h1>{{ project.title | escape }}</h1></span></div></a>
+              {% else %}
+                <a class="grid-link"><div class="one item"><span><h1>{{ project.title | escape }}</h1></span></div></a>
+              {% endif %}
+          {% else %}
+              {% if innerloopindex == 1 %}
+                <a class="grid-link"><div class="two item"><span><h1>{{ project.title | escape }}</h1></span></div></a>
+              {% else %}
+                <a class="grid-link"><div class="one item"><span><h1>{{ project.title | escape }}</h1></span></div></a>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+  	  
+	</div>
+  </div>
+
+</article>

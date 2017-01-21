@@ -285,8 +285,15 @@
 
   .item {
     text-align: center;
-    vertical-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     line-height: $base-line-height;
+
+    h1, h6 {
+      text-decoration: none;
+      color: $text-color;
+    }
   }
 
   .row {

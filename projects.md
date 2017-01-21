@@ -1,7 +1,7 @@
 ---
-layout: experience-projects
+layout: grid
 title: Projects
 permalink: /projects/
 ---
 
-Projects
+Check out some of the projects that I have worked on.
