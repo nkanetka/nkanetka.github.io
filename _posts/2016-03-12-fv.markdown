@@ -12,8 +12,8 @@ permalink: /projects/flight-visualization/
 | First Commit:      | __December 2016__ |
 | Website:     |    __[Website][web]{:target="_blank"}, [Github][gh]{:target="_blank"}__   |
 | Languages:  | `Python`, `JavaScript` |
-| Technologies Used: |  {::nomarkdown}<ul><li>JavaScript: Google Maps API's (1 Month)</li><li>Python: Beautiful Soup (1 Month)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Google Maps Styling (1 Month)</li></ul>{:/} |
+| Technologies Used: |  {::nomarkdown}<ul><li>JavaScript: Google Maps API's</li><li>Python: Beautiful Soup</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Google Maps Styling</li></ul>{:/} |
 
 ### Overview
 

@@ -12,8 +12,8 @@ permalink: /experience/nanoleaf/
 | Date:      | __August 2016 to December 2016__ |
 | Website:     |    __[AppStore][appstore]{:target="_blank"}__   |
 | Languages:  | `Objective-C`, `Swift`, `Python` |
-| Technologies Used: |  {::nomarkdown}<ul><li>HomeKit (4 Months)</li><li>JSON (3 Months)</li><li>RESTful API's (3 Months)</li><li>UIKit (4 Months)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode (4 Months)</li><li>TestFlight (4 Months)</li><li>Flurry (4 Months)</li><li>Crashlytics (3 Months)</li><li>Sketch (1 Month)</li></ul>{:/} |
+| Technologies Used: |  {::nomarkdown}<ul><li>HomeKit</li><li>JSON</li><li>RESTful API's</li><li>UIKit</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Sketch</li></ul>{:/} |
 
 ### Overview
 
