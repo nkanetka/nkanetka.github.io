@@ -95,7 +95,12 @@
 .footer-wrapper {
   position: relative;
   padding-left: $spacing-unit/2;
+  padding-right: $spacing-unit/2;
   font-size: 12px;
+  div {
+    vertical-align: text-bottom;
+    text-align: center;
+  }
 }
 
 .site-footer {
@@ -104,23 +109,6 @@
   width: 100%;
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit/2 0;
-}
-
-.site-footer > span {
-  vertical-align: text-bottom;
-  display: inline-block;
-}
-
-.footer-tag {
-  float: left;
-}
-
-.footer-links {
-  float: right;
-  padding-right: $spacing-unit/2;
-  .footer-link-container {
-    float: right;
-  }
 }
 
 .footer-heading {
