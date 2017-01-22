@@ -12,8 +12,8 @@ permalink: /experience/hcom/
 | Date:      | __August 2014 to April 2015__ |
 | Website:     |    __[HCOM Lab][hcom-lab]{:target="_blank"}__   |
 | Languages:  | `VBA` |
-| Technologies Used: |  {::nomarkdown}<ul><li>VBA (4 Months)</li><li>JIRA (2 Month)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Microsoft Excel (4 Months)</li><li>Microsoft Project (4 Months)</li></ul>{:/} |
+| Technologies Used: |  {::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Project</li></ul>{:/} |
 
 ### Overview
 

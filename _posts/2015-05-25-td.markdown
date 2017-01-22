@@ -12,8 +12,8 @@ permalink: /projects/touchdown/
 | First Commit:      | __May 2015__ |
 | Website:     |    __[Touchdown - Automatic Flight Tracking][td-web]{:target="_blank"}__   |
 | Languages:  | `Swift`, `Python` |
-| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation (1.5 Years)</li><li>CoreData (5 Months)</li><li>UIKit (1.5 Years)</li><li>JSON (1.5 Years)</li><li>XML (6 Months)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode (1.5 Years)</li><li>TestFlight (1 Year)</li><li>Flurry (4 Months)</li><li>Crashlytics (4 Months)</li><li>Google Auth (4 Months)</li><li>RESTful API's (1 Year)</li></ul>{:/} |
+| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation</li><li>CoreData</li><li>UIKit</li><li>JSON</li><li>XML</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Google Auth</li><li>RESTful API's</li></ul>{:/} |
 
 ### Overview
 

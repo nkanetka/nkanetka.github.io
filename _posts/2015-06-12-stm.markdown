@@ -12,8 +12,8 @@ permalink: /projects/star-tracking-mount/
 | Start Date:      | __June 2015__ |
 | Website:     |    __[Github][gh]{:target="_blank"}__   |
 | Languages:  | `Arduino C`, `Objective-C` |
-| Technologies Used: |  {::nomarkdown}<ul><li>Arduino (3 Months)</li><li>CoreBluetooth (1 Month)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Hardware Design (3 Month)</li><li>Mechanical Design (3 Month)</li></ul>{:/} |
+| Technologies Used: |  {::nomarkdown}<ul><li>Arduino</li><li>CoreBluetooth</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Hardware Design</li><li>Mechanical Design</li></ul>{:/} |
 
 ### Overview
 
