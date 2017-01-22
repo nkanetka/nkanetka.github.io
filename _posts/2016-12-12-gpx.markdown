@@ -1,0 +1,50 @@
+---
+layout: project
+title:  "GPX Location Manager Fork"
+date:   2017-01-19
+categories: projects
+thumbnail: "gpx_card.png"
+description: "A way to simulate location in iOS"
+permalink: /projects/gpx/
+---
+|                      |
+| :------------ | :-------------- |
+| First Commit:      | __December 2016__ |
+| Website:     |    __[Github][gh]{:target="_blank"}__   |
+| Languages:  | `Swift` |
+| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation (2 Months)</li><li>GPX Data (2 Months)</li><li>XML (2 Months)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode (2 Months)</li></ul>{:/} |
+
+### Overview
+
+
+
+### Responsibilities
+
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[gh]: https://github.com/nkanetka/GpxLocationManager

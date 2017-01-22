@@ -1,0 +1,26 @@
+<footer class="site-footer">
+
+  <div class="footer-wrapper">
+    <div class="footer-tag">
+      {% if site.footer_tag %}
+        {{ site.footer_tag | escape }}
+      {% endif %}
+    </div>
+    <div class="footer-links">
+      <div class="footer-link-container">
+        {% if site.github_username %}
+          {% include icon-github.html username=site.github_username %}
+        {% endif %}
+        {% if site.twitter_username %}
+          {% include icon-twitter.html username=site.twitter_username %}
+        {% endif %}
+        {% if site.flickr_username %}
+          {% include icon-flickr.html username=site.twitter_username %}
+        {% endif %}
+        {% if site.email %}
+          {% include icon-email.html username=site.twitter_username %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>

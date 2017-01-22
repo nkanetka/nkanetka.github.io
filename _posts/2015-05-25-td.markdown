@@ -1,0 +1,50 @@
+---
+layout: project
+title:  "Touchdown"
+date:   2017-01-19
+categories: projects
+thumbnail: "cil_card.png"
+description: "Track your flights at the touch of a button"
+permalink: /projects/touchdown/
+---
+|                      |
+| :------------ | :-------------- |
+| First Commit:      | __May 2015__ |
+| Website:     |    __[Touchdown - Automatic Flight Tracking][td-web]{:target="_blank"}__   |
+| Languages:  | `Swift`, `Python` |
+| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation (1.5 Years)</li><li>CoreData (5 Months)</li><li>UIKit (1.5 Years)</li><li>JSON (1.5 Years)</li><li>XML (6 Months)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode (1.5 Years)</li><li>TestFlight (1 Year)</li><li>Flurry (4 Months)</li><li>Crashlytics (4 Months)</li><li>Google Auth (4 Months)</li><li>RESTful API's (1 Year)</li></ul>{:/} |
+
+### Overview
+
+
+
+### Responsibilities
+
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[td-web]: http://touchdownapp.ca/?utm_source=nehal
