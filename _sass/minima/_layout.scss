@@ -92,6 +92,11 @@
 /**
  * Site footer
  */
+footer {
+  /*overflow: hidden;*/
+  background: #FFF;
+}
+
 .footer-wrapper {
   position: relative;
   padding-left: $spacing-unit/2;
@@ -104,11 +109,13 @@
 }
 
 .site-footer {
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   margin: 0 auto;
   width: 100%;
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit/2 0;
+  padding: $spacing-unit/2;
+  /*background: #000;*/
 }
 
 .footer-heading {
@@ -266,8 +273,7 @@
 }
 
 .post-content {
-  height: 200px;
-
+  min-height: 200px;
   h2 {
     font-size: 32px;
 
