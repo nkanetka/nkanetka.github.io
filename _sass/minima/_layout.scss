@@ -11,7 +11,7 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
@@ -196,6 +196,8 @@
   margin: 0 auto;
   text-align: justify-all;
   padding: $spacing-unit 0;
+  position: relative;
+  /*background: #999;*/
 }
 
 .page-content:after {
@@ -233,17 +235,30 @@
 /**
  * Home
  */
- .home {
+.home {
   position: relative;
- }
+  width: 100%;
+  height: 100%;
+  /*background: #000;*/
+}
 
- .home-heading {
-  font-size: 1000%;
+.home-heading {
+  font-size: 42px;
   text-align: center;
 }
 
 .home-caption {
   text-align: center;
+}
+
+.image-div {
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+  background-image: url("DSC_0354.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /**
