@@ -1,0 +1,50 @@
+---
+layout: project
+title:  "Pilot"
+date:   2014-06-28
+categories: projects
+thumbnail: "gpx_card.png"
+description: "My Personal Experience Becoming a Pilot"
+permalink: /projects/pilot/
+---
+|                      |
+| :------------ | :-------------- |
+| First Flight:      | __June 28 2014__ |
+| First Solo:     |    __September 21, 2014__   |
+| Ratings:  | __Night__ |
+| Current Licenses: |  __TC PPL SEL, FAA PPL SEL__ |
+| Aircraft Flown:  | __C152, C172RG__ |
+
+### Overview
+
+
+
+### Responsibilities
+
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[wwfc]: http://www.wwfc.ca/

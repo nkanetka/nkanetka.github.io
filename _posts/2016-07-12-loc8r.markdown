@@ -1,0 +1,50 @@
+---
+layout: project
+title:  "Location Based Safety Updates"
+date:   2017-01-19
+categories: projects
+thumbnail: "loc8r_card.png"
+description: "Location updates for loved ones"
+permalink: /projects/loc8r/
+---
+|                      |
+| :------------ | :-------------- |
+| First Commit:      | __July 2016__ |
+| Website:     |    __[Github][gh]{:target="_blank"}__   |
+| Languages:  | `Swift` |
+| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation (1 Month)</li><li>UIKit (1 Month)</li><li>JSON (1 Month)</li><li>API's (1 Month)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode (1 Month)</li></ul>{:/} |
+
+### Overview
+
+
+
+### Responsibilities
+
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[gh]: https://github.com/s26mehta/EarthquakeProject

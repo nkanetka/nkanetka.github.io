@@ -1,0 +1,50 @@
+---
+layout: project
+title:  "Star Tracking Mount"
+date:   2017-01-19
+categories: projects
+thumbnail: "stm_card.png"
+description: "DIY way to improve photographs of stars"
+permalink: /projects/star-tracking-mount/
+---
+|                      |
+| :------------ | :-------------- |
+| Start Date:      | __June 2015__ |
+| Website:     |    __[Github][gh]{:target="_blank"}__   |
+| Languages:  | `Arduino C`, `Objective-C` |
+| Technologies Used: |  {::nomarkdown}<ul><li>Arduino (3 Months)</li><li>CoreBluetooth (1 Month)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Hardware Design (3 Month)</li><li>Mechanical Design (3 Month)</li></ul>{:/} |
+
+### Overview
+
+
+
+### Responsibilities
+
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[gh]: https://github.com/nkanetka/Star-Tracking-Mount

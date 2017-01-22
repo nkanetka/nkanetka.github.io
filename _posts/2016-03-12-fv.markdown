@@ -1,0 +1,51 @@
+---
+layout: default
+title:  "Porter Airlines Flight Visualization"
+date:   2017-01-19
+categories: projects
+thumbnail: "fv_card.png"
+description: "Data visualization of flights in one day"
+permalink: /projects/flight-visualization/
+---
+|                      |
+| :------------ | :-------------- |
+| First Commit:      | __December 2016__ |
+| Website:     |    __[Website][web]{:target="_blank"}, [Github][gh]{:target="_blank"}__   |
+| Languages:  | `Python`, `JavaScript` |
+| Technologies Used: |  {::nomarkdown}<ul><li>JavaScript: Google Maps API's (1 Month)</li><li>Python: Beautiful Soup (1 Month)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Google Maps Styling (1 Month)</li></ul>{:/} |
+
+### Overview
+
+
+
+### Responsibilities
+
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[gh]: https://github.com/nkanetka/GpxLocationManager
+[web]: http://nkanetka.github.io/Flight-Visualization/
