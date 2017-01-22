@@ -24,6 +24,9 @@ github_username:  nkanetka
 
 # Build settings
 markdown: kramdown
+kramdown:
+  extensions:
+    - nomarkdown
 theme: minima
 gems:
   - jekyll-feed

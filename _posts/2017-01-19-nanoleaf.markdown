@@ -1,27 +1,68 @@
 ---
-layout: default
+layout: experience
 title:  "Nanoleaf"
 date:   2017-01-19
 categories: jobs
-role:	"iOS Developer"
-thumbnail: "js1.jpg"
+role:	"Lead iOS Developer"
+thumbnail: "nanoleaf_card.png"
+permalink: /experience/nanoleaf/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+|                      |
+| :------------ | :-------------- |
+| Date:      | __August 2016 to December 2016__ |
+| Website:     |    __[AppStore][appstore]__   |
+| Languages:  | `Objective-C`, `Swift`, `Python` |
+| Technologies Used: |  {::nomarkdown}<ul><li>HomeKit (4 Months)</li><li>JSON (3 Months)</li><li>RESTful API's (3 Months)</li><li>UIKit (4 Months)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode (4 Months)</li><li>Flurry (4 Months)</li><li>Crashlytics (3 Months)</li><li>Sketch (1 Month)</li></ul>{:/} |
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Overview
 
-Jekyll also offers powerful support for code snippets:
+[Nanoleaf][nanoleaf] is a medium sized startup based in Toronto and Shenzen, China. The start of my term was exciting as it coincided with the launch of their new product, the [Nanoleaf Aurora][nanoleaf-aurora], a modular smart lighting product. My role as an iOS developer this term was to take the app and improve it to make customers experiences with Nanoleaf products better.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Responsibilities
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+At Nanoleaf, my main responsibilites were the design, architecture, implementation and testing of the Nanoleaf iOS app. What that means is that I was responsible for taking a feature and determining where they fit in for users (using Flurry data and user tests to justify choices), how it would fit in technically with our existing technical, creating wireframes and implementation in Objective-C. Further, I took on the responsibility of ensuring the codebase was up to date with the latest HomeKit and iOS API's. I also ensured that the codebase didn't break when new iOS versions were released by setting up a Slack channel that listened to Apple's RSS feed. The most rewarding part was that the changes that I made on the app were high impact -- many of the features I implemented during that term are live on the App Store right now!
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Challenges
+
+One of the hardest challenges that I dealt with at Nanoleaf was determining where the app fit into their exising ecosystem of products. Once I identified this as an issue, I gained the courage to bring it up with my boss and the CEO. Luckily they were receptive to this feedback and we started working on a vision for how the app fits into the existing ecosystem.
+
+Another challenge that I had during this term was design. Both technically and visually design is hard! Making sure that designs are ready for production is challenging as you have to consider many different use cases and things that users may do. Thankfully the testing processes and testing team helped ensure that the changes that I made would be successful in production.
+
+Another challenge that I had during this term was teaching. When I first started, the company transitioned to an Agile approach to development. Unbenounced to me, I was the most familiar with Agile and became the teacher and leader to give suggestions on ways that we could improve processes. What was challenging about this is that normally I am used to coming into a company and being the person with the least amount of knowledge trying to soak up as much as I can before I leave. This time the roles reversed and I helped improve the development process and release procedures for the iOS app.
+
+Finally, one thing that I realized this term is that hardware products make development even more difficult. In my last job we just had to deal with an iOS app and backend. At [Nanoleaf][nanoleaf], we were dealing with frontend, backend and hardware products which all interacted meaning developement required extra care.
+
+### Lessons Learned
+- It's easy to see the little flaws in a company. Focus on what's good and present actionable changes
+- Teaching is difficult - come up with a plan and focus on the high impact items rather than throwing everything at someone
+- No matter how small a product is it needs to have a vision in the current ecosystem to make the highest impact to users
+
+### Features Worked On
+- Implemented an interactive tutorial of key features of the [Nanoleaf Aurora][nanoleaf-aurora] using [Apple's Human Interface Guildlines][apple-hig] on best practices for tutorials
+- Made the app Universal (iPad) compatible by fixing crashing bugs
+- Reduced customer support calls by implementing a flow within to app that guides users who are having trouble pairing with the Aurora
+- Architected and implemented a feature that allows users to download scenes that Nanoleaf features
+- Worked on improving the overal UI/UX of the app to allow users to have better control of the Aurora
+- Worked on defining a vision for the app so that it would clearly fit into the existing ecosystem
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[appstore]: https://itunes.apple.com/ca/app/nanoleaf-smarter-series/id1049333656?mt=8
+[nanoleaf]: https://nanoleaf.me/en/
+[nanoleaf-aurora]: https://nanoleaf.me/en/consumer-led-lighting/products/smarter-series/nanoleaf-aurora-smarter-kit/
+[apple-hig]: https://developer.apple.com/ios/human-interface-guidelines/interaction/first-launch-experience/

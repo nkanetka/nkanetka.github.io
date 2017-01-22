@@ -45,6 +45,13 @@ ul, ol, dl, figure,
 
 
 
+strong {
+  color: $text-color;
+  font: $base-bold-font-family;
+}
+
+
+
 /**
  * Images
  */
@@ -119,6 +126,21 @@ a {
   }
 }
 
+
+/**
+ * Tables
+ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+td {
+  vertical-align: top;
+}
 
 /**
  * Blockquotes
