@@ -1,19 +1,19 @@
 ---
 layout: project
-title:  "GPX Location Manager Fork"
-date:   2017-01-19
+title:  "Pilot"
+date:   2014-06-28
 categories: projects
 thumbnail: "gpx_card.png"
-description: "A way to simulate location in iOS"
-permalink: /projects/gpx/
+description: "My Personal Experience Becoming a Pilot"
+permalink: /projects/pilot/
 ---
 |                      |
 | :------------ | :-------------- |
-| First Commit:      | __December 2016__ |
-| Website:     |    __[Github][gh]{:target="_blank"}__   |
-| Languages:  | `Swift` |
-| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation (2 Months)</li><li>GPX Data (2 Months)</li><li>XML (2 Months)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode (2 Months)</li></ul>{:/} |
+| First Flight:      | __June 28 2014__ |
+| First Solo:     |    __September 21, 2014__   |
+| Ratings:  | __Night__ |
+| Current Licenses: |  __TC PPL SEL, FAA PPL SEL__ |
+| Aircraft Flown:  | __C152, C172RG__ |
 
 ### Overview
 
@@ -47,4 +47,4 @@ permalink: /projects/gpx/
     }
 {% endhighlight %} -->
 
-[gh]: https://github.com/nkanetka/GpxLocationManager
+[wwfc]: http://www.wwfc.ca/

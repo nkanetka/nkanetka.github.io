@@ -10,14 +10,14 @@ permalink: /experience/cil/
 |                      |
 | :------------ | :-------------- |
 | Date:      | __January 2016 to April 2016__ |
-| Website:     |    __[AppStore][appstore]__   |
+| Website:     |    __[AppStore][appstore]{:target="_blank"}__   |
 | Languages:  | `Objective-C`, `Python`, `JavaScript`, `Objective-C++` |
 | Technologies Used: |  {::nomarkdown}<ul><li>Photos (2 Months)</li><li>UIKit (4 Months)</li><li>OpenCV iOS (1 Month)</li><li>D3.js (1 Month)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode (2 Months)</li><li>Flurry (2 Months)</li><li>Crashlytics (2 Months)</li><li>Taplytics (1 Month)</li><li>Git (4 Month)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode (2 Months)</li><li>TestFlight (2 Months)</li><li>Flurry (2 Months)</li><li>Crashlytics (2 Months)</li><li>Taplytics (1 Month)</li><li>Git (4 Month)</li></ul>{:/} |
 
 ### Overview
 
-Founded in the fall of 2014, The [Canon Innovation Lab][cil-website] is a small team of designers and developers working to rapidly generate and implemente ideas to respond to the evolving needs in the photography space. The start of my term at the Lab was exciting as it marked the beginning of production development for [Jumpshot][cil-jumpshot], the Lab's first prototype to go out to users.
+Founded in the fall of 2014, The [Canon Innovation Lab][cil-website]{:target="_blank"} is a small team of designers and developers working to rapidly generate and implemente ideas to respond to the evolving needs in the photography space. The start of my term at the Lab was exciting as it marked the beginning of production development for [Jumpshot][cil-jumpshot]{:target="_blank"}, the Lab's first prototype to go out to users.
 
 ### Responsibilities
 

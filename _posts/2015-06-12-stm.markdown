@@ -1,27 +1,50 @@
 ---
-layout: default
+layout: project
 title:  "Star Tracking Mount"
 date:   2017-01-19
 categories: projects
 thumbnail: "stm_card.png"
 description: "DIY way to improve photographs of stars"
+permalink: /projects/star-tracking-mount/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+|                      |
+| :------------ | :-------------- |
+| Start Date:      | __June 2015__ |
+| Website:     |    __[Github][gh]{:target="_blank"}__   |
+| Languages:  | `Arduino C`, `Objective-C` |
+| Technologies Used: |  {::nomarkdown}<ul><li>Arduino (3 Months)</li><li>CoreBluetooth (1 Month)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Hardware Design (3 Month)</li><li>Mechanical Design (3 Month)</li></ul>{:/} |
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Overview
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Responsibilities
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[gh]: https://github.com/nkanetka/Star-Tracking-Mount

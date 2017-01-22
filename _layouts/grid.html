@@ -49,24 +49,24 @@ layout: default
           {% if loopindex == 1 %}
             <div class="column">
               {% if innerloopindex == 1 %}
-                <a class="grid-link">
+                <a class="grid-link" href="{{ site.baseurl }}  {{ project.permalink }}">
                   <span><h1>{{ project.title | escape }}</h1><h6>{{ project.description | escape }}</h6></span>
                   <div class="two item" style="background-image: url({{ site.baseurl }}/assets/{{ project.thumbnail }});"></div>
                 </a>
               {% else %}
-                <a class="grid-link">
+                <a class="grid-link" href="{{ site.baseurl }}  {{ project.permalink }}">
                   <span><h1>{{ project.title | escape }}</h1><h6>{{ project.description | escape }}</h6></span>
                   <div class="one item" style="background-image: url({{ site.baseurl }}/assets/{{ project.thumbnail }});"></div>
                 </a>
               {% endif %}
           {% else %}
               {% if innerloopindex == 1 %}
-                <a class="grid-link">
+                <a class="grid-link" href="{{ site.baseurl }}  {{ project.permalink }}">
                   <span><h1>{{ project.title | escape }}</h1><h6>{{ project.description | escape }}</h6></span>
                   <div class="two item" style="background-image: url({{ site.baseurl }}/assets/{{ project.thumbnail }});"></div>
                 </a>
               {% else %}
-                <a class="grid-link">
+                <a class="grid-link" href="{{ site.baseurl }}  {{ project.permalink }}">
                   <span><h1>{{ project.title | escape }}</h1><h6>{{ project.description | escape }}</h6></span>
                   <div class="one item" style="background-image: url({{ site.baseurl }}/assets/{{ project.thumbnail }});"></div>
                 </a>

@@ -1,27 +1,50 @@
 ---
-layout: default
+layout: project
 title:  "Touchdown"
 date:   2017-01-19
 categories: projects
 thumbnail: "cil_card.png"
 description: "Track your flights at the touch of a button"
+permalink: /projects/touchdown/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+|                      |
+| :------------ | :-------------- |
+| First Commit:      | __May 2015__ |
+| Website:     |    __[Touchdown - Automatic Flight Tracking][td-web]{:target="_blank"}__   |
+| Languages:  | `Swift`, `Python` |
+| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation (1.5 Years)</li><li>CoreData (5 Months)</li><li>UIKit (1.5 Years)</li><li>JSON (1.5 Years)</li><li>XML (6 Months)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode (1.5 Years)</li><li>TestFlight (1 Year)</li><li>Flurry (4 Months)</li><li>Crashlytics (4 Months)</li><li>Google Auth (4 Months)</li><li>RESTful API's (1 Year)</li></ul>{:/} |
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Overview
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Responsibilities
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[td-web]: http://touchdownapp.ca/

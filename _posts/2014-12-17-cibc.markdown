@@ -1,27 +1,54 @@
 ---
-layout: default
+layout: experience
 title:  "CIBC"
 date:   2014-12-17
 categories: jobs
 role:	"Technical Analyst"
 thumbnail: "cibc_card.png"
+permalink: /experience/cibc/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+|                      |
+| :------------ | :-------------- |
+| Date:      | __September 2014 to December 2014__ |
+| Website:     |    __[CIBC][cibc-em]{:target="_blank"}__   |
+| Languages:  | `VBA` |
+| Technologies Used: |  {::nomarkdown}<ul><li>VBA (4 Months)</li><li>JIRA (2 Month)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Microsoft Excel (4 Months)</li><li>Microsoft Project (4 Months)</li></ul>{:/} |
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Overview
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Responsibilities
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+### Challenges
+
+
+
+### Lessons Learned
+
+
+
+### Features Worked On
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+{% highlight swift %}
+ override func viewDidLoad() {
+        super.viewDidLoad()
+        tv.delegate = self
+        tv.dataSource = self
+
+        tv.alwaysBounceVertical = false
+        
+        nextViewControllerButton.enabled = false
+        nextViewControllerButton.alpha = 0.5
+        // Do any additional setup after loading the view.
+    }
+{% endhighlight %} -->
+
+[cibc-em]: http://www.cibcwm.com/cibc-eportal-web/portal/wm?pageId=home&language=en_CA

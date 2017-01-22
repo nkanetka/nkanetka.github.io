@@ -10,14 +10,14 @@ permalink: /experience/nanoleaf/
 |                      |
 | :------------ | :-------------- |
 | Date:      | __August 2016 to December 2016__ |
-| Website:     |    __[AppStore][appstore]__   |
+| Website:     |    __[AppStore][appstore]{:target="_blank"}__   |
 | Languages:  | `Objective-C`, `Swift`, `Python` |
 | Technologies Used: |  {::nomarkdown}<ul><li>HomeKit (4 Months)</li><li>JSON (3 Months)</li><li>RESTful API's (3 Months)</li><li>UIKit (4 Months)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode (4 Months)</li><li>Flurry (4 Months)</li><li>Crashlytics (3 Months)</li><li>Sketch (1 Month)</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode (4 Months)</li><li>TestFlight (4 Months)</li><li>Flurry (4 Months)</li><li>Crashlytics (3 Months)</li><li>Sketch (1 Month)</li></ul>{:/} |
 
 ### Overview
 
-[Nanoleaf][nanoleaf] is a medium sized startup based in Toronto and Shenzen, China. The start of my term was exciting as it coincided with the launch of their new product, the [Nanoleaf Aurora][nanoleaf-aurora], a modular smart lighting product. My role as an iOS developer this term was to take the app and improve it to make customers experiences with Nanoleaf products better.
+[Nanoleaf][nanoleaf]{:target="_blank"} is a medium sized startup based in Toronto and Shenzen, China. The start of my term was exciting as it coincided with the launch of their new product, the [Nanoleaf Aurora][nanoleaf-aurora]{:target="_blank"}, a modular smart lighting product. My role as an iOS developer this term was to take the app and improve it to make customers experiences with Nanoleaf products better.
 
 ### Responsibilities
 
@@ -31,7 +31,7 @@ Another challenge that I had during this term was design. Both technically and v
 
 Another challenge that I had during this term was teaching. When I first started, the company transitioned to an Agile approach to development. Unbenounced to me, I was the most familiar with Agile and became the teacher and leader to give suggestions on ways that we could improve processes. What was challenging about this is that normally I am used to coming into a company and being the person with the least amount of knowledge trying to soak up as much as I can before I leave. This time the roles reversed and I helped improve the development process and release procedures for the iOS app.
 
-Finally, one thing that I realized this term is that hardware products make development even more difficult. In my last job we just had to deal with an iOS app and backend. At [Nanoleaf][nanoleaf], we were dealing with frontend, backend and hardware products which all interacted meaning developement required extra care.
+Finally, one thing that I realized this term is that hardware products make development even more difficult. In my last job we just had to deal with an iOS app and backend. At [Nanoleaf][nanoleaf]{:target="_blank"}, we were dealing with frontend, backend and hardware products which all interacted meaning developement required extra care.
 
 ### Lessons Learned
 - It's easy to see the little flaws in a company. Focus on what's good and present actionable changes
@@ -39,7 +39,7 @@ Finally, one thing that I realized this term is that hardware products make deve
 - No matter how small a product is it needs to have a vision in the current ecosystem to make the highest impact to users
 
 ### Features Worked On
-- Implemented an interactive tutorial of key features of the [Nanoleaf Aurora][nanoleaf-aurora] using [Apple's Human Interface Guildlines][apple-hig] on best practices for tutorials
+- Implemented an interactive tutorial of key features of the [Nanoleaf Aurora][nanoleaf-aurora]{:target="_blank"} using [Apple's Human Interface Guildlines][apple-hig]{:target="_blank"} on best practices for tutorials
 - Made the app Universal (iPad) compatible by fixing crashing bugs
 - Reduced customer support calls by implementing a flow within to app that guides users who are having trouble pairing with the Aurora
 - Architected and implemented a feature that allows users to download scenes that Nanoleaf features
