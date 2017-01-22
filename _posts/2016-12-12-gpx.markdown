@@ -12,8 +12,8 @@ permalink: /projects/gpx/
 | First Commit:      | __December 2016__ |
 | Website:     |    __[Github][gh]{:target="_blank"}__   |
 | Languages:  | `Swift` |
-| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation (2 Months)</li><li>GPX Data (2 Months)</li><li>XML (2 Months)</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode (2 Months)</li></ul>{:/} |
+| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation</li><li>GPX Data</li><li>XML</li></ul>{:/} |
+| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li></ul>{:/} |
 
 ### Overview
 
