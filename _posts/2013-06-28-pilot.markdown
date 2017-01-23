@@ -15,36 +15,6 @@ permalink: /projects/pilot/
 | Current Licenses: |  __TC PPL SEL, FAA PPL SEL__ |
 | Aircraft Flown:  | __C152, C172RG__ |
 
-### Overview
-
-
-
-### Responsibilities
-
-
-
-### Challenges
-
-
-
-### Lessons Learned
-
-
-
-<!-- Jekyll also offers powerful support for code snippets:
-
-{% highlight swift %}
- override func viewDidLoad() {
-        super.viewDidLoad()
-        tv.delegate = self
-        tv.dataSource = self
-
-        tv.alwaysBounceVertical = false
-        
-        nextViewControllerButton.enabled = false
-        nextViewControllerButton.alpha = 0.5
-        // Do any additional setup after loading the view.
-    }
-{% endhighlight %} -->
+Flying has been a passion of mine since I was 6 years old. Ever since then, all I have wanted to do is fly planes or do something in the aviation industry. After graduating high school, I went out to a [local flight school][wwfc] and started my flight training. Today I have approximately 135 hours total time and am working towards completing my CPL written test and IFR written test in the next year.
 
 [wwfc]: http://www.wwfc.ca/

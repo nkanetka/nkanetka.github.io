@@ -17,7 +17,7 @@ permalink: /experience/hcom/
 
 ### Overview
 
-The HCOM Lab is a multi-disciplinary lab that studies how humans interact with complex systems. My role as a research assistant was to help Master student Samuel Lien with the design of a pilot and Air Traffic Controller (ATC) interface, help collect data and help analyze the data after the completion of the study. 
+The HCOM Lab is a multi-disciplinary lab that studies how humans interact with complex systems. My role as a research assistant was to help Master's student Samuel Lien with the design of a pilot and Air Traffic Controller (ATC) interface, help collect data and help analyze the data after the completion of the study. 
 
 ### Responsibilities
 
