@@ -133,9 +133,11 @@ a {
  * Tables
  */
 table {
-  width: 60%;
+  vertical-align: text-top;
+  padding: $spacing-unit / 2;
   font-size: $small-font-size;
   color: $grey-color;
+  display: inline-block;
 }
 
 td {
