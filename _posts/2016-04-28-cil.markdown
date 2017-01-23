@@ -12,8 +12,8 @@ permalink: /experience/cil/
 | Date:      | __January 2016 to April 2016__ |
 | Website:     |    __[App Store][appstore]{:target="_blank"}__   |
 | Languages:  | `Objective-C`, `Python`, `JavaScript`, `Objective-C++` |
-| Technologies Used: |  {::nomarkdown}<ul><li>Photos</li><li>UIKit</li><li>OpenCV iOS</li><li>D3.js</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Taplytics</li><li>Git</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>Photos</li><li>UIKit</li><li>OpenCV iOS</li><li>D3.js</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Taplytics</li><li>Git</li></ul>{:/}__ |
 
 ### Overview
 

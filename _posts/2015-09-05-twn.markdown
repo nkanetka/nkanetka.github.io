@@ -12,8 +12,8 @@ permalink: /experience/twn/
 | Date:      | __May 2015 to September 2015__ |
 | Website:     |    __[Radar Map][twn-radar]{:target="_blank"}__   |
 | Languages:  | `Objective-C`, `Swift`, `JavaScript` |
-| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation</li><li>Apple Maps</li><li>UIKit</li><li>WebGL</li><li>THREE.js</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li><li>GeoJSON</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>CoreLocation</li><li>Apple Maps</li><li>UIKit</li><li>WebGL</li><li>THREE.js</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li><li>GeoJSON</li></ul>{:/}__ |
 
 ### Overview
 

@@ -12,8 +12,8 @@ permalink: /projects/flight-visualization/
 | First Commit:      | __February 2016__ |
 | Website:     |    __[Website][web]{:target="_blank"}, [Github][gh]{:target="_blank"}__   |
 | Languages:  | `Python`, `JavaScript` |
-| Technologies Used: |  {::nomarkdown}<ul><li>JavaScript: Google Maps API's</li><li>Python: Beautiful Soup</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Google Maps Styling</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>JavaScript: Google Maps API's</li><li>Python: Beautiful Soup</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Google Maps Styling</li></ul>{:/}__ |
 
 ### Problem
 
@@ -29,7 +29,7 @@ Implement an interactive visualization of flights using Google Maps.
 
 ### Outcome
 
-One of the most challenging aspects of this project was finding a way to get data of historical flights. Unfortunately, the best solution that I could come up with was to brute force read through the html from [Flight Aware][fa]. Although this worked, it wasn't as easy as I hoped and it is fairly easy for my script to break if Flight Aware changes the way they display data. Having said this, I was able to extract the data, display it to a Google Map and animate the data allowing users to see the flights and be able to interact with it. I would love to spend more time extending this project to take multiple airlines at once and make it easier for users to learn more about specific flights.
+One of the most challenging aspects of this project was finding a way to get data of historical flights. Unfortunately, the best solution that I could come up with was to brute force read through the html from [Flight Aware][fa]{:target="_blank"}. Although this worked, it wasn't as easy as I hoped and it is fairly easy for my script to break if Flight Aware changes the way they display data. Having said this, I was able to extract the data, display it to a Google Map and animate the data allowing users to see the flights and be able to interact with it. I would love to spend more time extending this project to take multiple airlines at once and make it easier for users to learn more about specific flights.
 
 [gh]: https://github.com/nkanetka/Flight-Visualization
 [web]: http://nkanetka.github.io/Flight-Visualization/

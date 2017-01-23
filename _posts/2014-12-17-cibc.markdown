@@ -12,8 +12,8 @@ permalink: /experience/cibc/
 | Date:      | __September 2014 to December 2014__ |
 | Website:     |    __[CIBC][cibc-em]{:target="_blank"}__   |
 | Languages:  | `VBA` |
-| Technologies Used: |  {::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Project</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Project</li></ul>{:/}__ |
 
 ### Overview
 

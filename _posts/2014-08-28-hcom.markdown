@@ -12,8 +12,8 @@ permalink: /experience/hcom/
 | Date:      | __August 2014 to April 2015__ |
 | Website:     |    __[HCOM Lab][hcom-lab]{:target="_blank"}__   |
 | Languages:  | `VBA` |
-| Technologies Used: |  {::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Word</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Word</li></ul>{:/}__ |
 
 ### Overview
 
@@ -41,7 +41,7 @@ When I first started in this role, the researcher was having a lot of trouble ge
 
 - If you want to get soemthing done, the best thing to do is just start doing it.
 
-*A copy of the thesis can be found [here][lien-thesis]*
+*A copy of the thesis can be found [here][lien-thesis]{:target="_blank"}*
 
 <!-- Jekyll also offers powerful support for code snippets:
 

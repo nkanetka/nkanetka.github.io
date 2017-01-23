@@ -12,8 +12,8 @@ permalink: /projects/gpx/
 | First Commit:      | __December 2016__ |
 | Website:     |    __[Github][gh]{:target="_blank"}__   |
 | Languages:  | `Swift` |
-| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation</li><li>GPX Data</li><li>XML</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>CoreLocation</li><li>GPX Data</li><li>XML</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li></ul>{:/}__ |
 
 ### Problem
 
@@ -37,7 +37,7 @@ iOS developers who use CoreLocation frequently are often thinking about how to t
 	}
 {% endhighlight %}
 
-Unfortunately, with Xcode 8, Apple decided to [remove][apple-dev-forums] the Automation Instruments tool in hopes that developers would start using the UI Testing Infrastructure more widely.
+Unfortunately, with Xcode 8, Apple decided to [remove][apple-dev-forums]{:target="_blank"} the Automation Instruments tool in hopes that developers would start using the UI Testing Infrastructure more widely.
 
 ### Goals
 
@@ -45,7 +45,7 @@ When Apple decided to remove Automation Instruments, I was annoyed as I had put 
 
 ### Outcomes
 
-After many attempts to find something to test with, I stumbled upon the [GPX Location Manager][gh-forked] repo. I quickly realized that it may work and added the Cocoa Pod to my project. When I first tested it, I quickly realized it was not simulating the speed or course that I was passing into it. I started looking into the files and realized that I could modify the code to accept those and did that. I'm happy to say I found a way to simulate location once again.
+After many attempts to find something to test with, I stumbled upon the [GPX Location Manager][gh-forked]{:target="_blank"} repo. I quickly realized that it may work and added the Cocoa Pod to my project. When I first tested it, I quickly realized it was not simulating the speed or course that I was passing into it. I started looking into the files and realized that I could modify the code to accept those and did that. I'm happy to say I found a way to simulate location once again.
 
 [gh]: https://github.com/nkanetka/GpxLocationManager
 [gh-forked]: https://github.com/vermont42/GpxLocationManager
