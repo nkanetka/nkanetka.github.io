@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title:  "Porter Airlines Flight Visualization"
 date:   2017-01-19
 categories: projects
