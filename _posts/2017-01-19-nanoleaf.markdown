@@ -10,10 +10,10 @@ permalink: /experience/nanoleaf/
 |                      |
 | :------------ | :-------------- |
 | Date:      | __August 2016 to December 2016__ |
-| Website:     |    __[AppStore][appstore]{:target="_blank"}__   |
+| Website:     |    __[App Store][appstore]{:target="_blank"}__   |
 | Languages:  | `Objective-C`, `Swift`, `Python` |
-| Technologies Used: |  {::nomarkdown}<ul><li>HomeKit</li><li>JSON</li><li>RESTful API's</li><li>UIKit</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Sketch</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>HomeKit</li><li>JSON</li><li>RESTful API's</li><li>UIKit</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Sketch</li></ul>{:/}__ |
 
 ### Overview
 
@@ -22,6 +22,14 @@ permalink: /experience/nanoleaf/
 ### Responsibilities
 
 At Nanoleaf, my main responsibilites were the design, architecture, implementation and testing of the Nanoleaf iOS app. What that means is that I was responsible for taking a feature and determining where they fit in for users (using Flurry data and user tests to justify choices), how it would fit in technically with our existing technical, creating wireframes and implementation in Objective-C. Further, I took on the responsibility of ensuring the codebase was up to date with the latest HomeKit and iOS API's. I also ensured that the codebase didn't break when new iOS versions were released by setting up a Slack channel that listened to Apple's RSS feed. The most rewarding part was that the changes that I made on the app were high impact -- many of the features I implemented during that term are live on the App Store right now!
+
+### Features Worked On
+- Implemented an interactive tutorial of key features of the [Nanoleaf Aurora][nanoleaf-aurora]{:target="_blank"} using [Apple's Human Interface Guildlines][apple-hig]{:target="_blank"} on best practices for tutorials
+- Made the app Universal (iPad) compatible by fixing crashing bugs
+- Reduced customer support calls by implementing a flow within to app that guides users who are having trouble pairing with the Aurora
+- Architected and implemented a feature that allows users to download scenes that Nanoleaf features
+- Worked on improving the overal UI/UX of the app to allow users to have better control of the Aurora
+- Worked on defining a vision for the app so that it would clearly fit into the existing ecosystem
 
 ### Challenges
 
@@ -37,14 +45,6 @@ Finally, one thing that I realized this term is that hardware products make deve
 - It's easy to see the little flaws in a company. Focus on what's good and present actionable changes
 - Teaching is difficult - come up with a plan and focus on the high impact items rather than throwing everything at someone
 - No matter how small a product is it needs to have a vision in the current ecosystem to make the highest impact to users
-
-### Features Worked On
-- Implemented an interactive tutorial of key features of the [Nanoleaf Aurora][nanoleaf-aurora]{:target="_blank"} using [Apple's Human Interface Guildlines][apple-hig]{:target="_blank"} on best practices for tutorials
-- Made the app Universal (iPad) compatible by fixing crashing bugs
-- Reduced customer support calls by implementing a flow within to app that guides users who are having trouble pairing with the Aurora
-- Architected and implemented a feature that allows users to download scenes that Nanoleaf features
-- Worked on improving the overal UI/UX of the app to allow users to have better control of the Aurora
-- Worked on defining a vision for the app so that it would clearly fit into the existing ecosystem
 
 <!-- Jekyll also offers powerful support for code snippets:
 

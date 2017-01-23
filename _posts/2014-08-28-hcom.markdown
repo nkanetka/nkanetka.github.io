@@ -12,12 +12,12 @@ permalink: /experience/hcom/
 | Date:      | __August 2014 to April 2015__ |
 | Website:     |    __[HCOM Lab][hcom-lab]{:target="_blank"}__   |
 | Languages:  | `VBA` |
-| Technologies Used: |  {::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Word</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Word</li></ul>{:/}__ |
 
 ### Overview
 
-The HCOM Lab is a multi-disciplinary lab that studies how humans interact with complex systems. My role as a research assistant was to help Master's student Samuel Lien with the design of a pilot and Air Traffic Controller (ATC) interface, help collect data and help analyze the data after the completion of the study. 
+The HCOM Lab is a multi-disciplinary lab that studies how humans interact with complex systems. My role as a research assistant was to help Master's student Samuel Lien with the design of a pilot and Air Traffic Controller (ATC) interface, help collect data and help analyze the data after the completion of the study.
 
 ### Responsibilities
 
@@ -25,6 +25,13 @@ The HCOM Lab is a multi-disciplinary lab that studies how humans interact with c
 2. Organize the scheduling of pilots and ATC so that the study could be conducted at times that work both all parties (pilots, ATC and us).
 3. Analyze the recordings of the study for keywords and phrases that would be used to create results.
 4. Contribute to the design of the interfaces using knowledge of both ATC and pilot interfaces
+
+### Features Worked On
+
+- Recruitment strategy
+- Scheduling
+- Data analysis
+- Design of interfaces
 
 ### Challenges
 
@@ -34,14 +41,7 @@ When I first started in this role, the researcher was having a lot of trouble ge
 
 - If you want to get soemthing done, the best thing to do is just start doing it.
 
-### Features Worked On
-
-- Recruitment strategy
-- Scheduling
-- Data analysis
-- Design of interfaces
-
-*A copy of the thesis can be found [here][lien-thesis]*
+*A copy of the thesis can be found [here][lien-thesis]{:target="_blank"}*
 
 <!-- Jekyll also offers powerful support for code snippets:
 

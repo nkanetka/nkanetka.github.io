@@ -12,8 +12,8 @@ permalink: /projects/touchdown/
 | First Commit:      | __May 2015__ |
 | Website:     |    __[Touchdown - Automatic Flight Tracking][td-web]{:target="_blank"}__   |
 | Languages:  | `Swift`, `Python` |
-| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation</li><li>CoreData</li><li>UIKit</li><li>JSON</li><li>XML</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Google Auth</li><li>RESTful API's</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>CoreLocation</li><li>CoreData</li><li>UIKit</li><li>JSON</li><li>XML</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Google Auth</li><li>RESTful API's</li></ul>{:/}__ |
 
 ### Problem
 
@@ -25,7 +25,7 @@ Design a way to automatically record and log the time that you takeoff and land.
 
 ### Outcome
 
-I started this project about 1.5 years ago as a personal development side project. Today I am still working on it, with some others helpting too! Even though testing the algorithms has been challenging and working on it after work and school has been tiring we are getting closer to releasing the product. If you are a pilot and are interested in the app, take a look at the [website][td-web] or send me an [email][td-email] if you have any questions.
+I started this project about 1.5 years ago as a personal development side project. Today I am still working on it, with some others helpting too! Even though testing the algorithms has been challenging and working on it after work and school has been tiring we are getting closer to releasing the product. If you are a pilot and are interested in the app, take a look at the [website][td-web]{:target="_blank"} or send me an [email][td-email] if you have any questions.
 
 [td-web]: http://touchdownapp.ca/?utm_source=nehal
 [td-email]: mailto:nehal@touchdownapp.ca
