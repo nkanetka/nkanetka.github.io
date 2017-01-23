@@ -15,36 +15,16 @@ permalink: /projects/star-tracking-mount/
 | Technologies Used: |  {::nomarkdown}<ul><li>Arduino</li><li>CoreBluetooth</li></ul>{:/} |
 | Tools Used: |  {::nomarkdown}<ul><li>Hardware Design</li><li>Mechanical Design</li></ul>{:/} |
 
-### Overview
+### Problem
 
+I am an avid photographer and particularily like takeing photographs of stars. However, one challenge with astophotography is getting a photograph of a star without any light trails when shooting with exposures greater than about 10s. Traditionally, photographers would purchase stabalizing mounts for thousands or dollars to get photographs. Unfortunately as a student, I can not afford that and decided that I would try and make my own mount.
 
+### Goal
 
-### Responsibilities
+Design a mount that rotates at the same rate as the earths rotation to reduce the amount of star trails in photographs
 
+### Outcome
 
-
-### Challenges
-
-
-
-### Lessons Learned
-
-
-
-<!-- Jekyll also offers powerful support for code snippets:
-
-{% highlight swift %}
- override func viewDidLoad() {
-        super.viewDidLoad()
-        tv.delegate = self
-        tv.dataSource = self
-
-        tv.alwaysBounceVertical = false
-        
-        nextViewControllerButton.enabled = false
-        nextViewControllerButton.alpha = 0.5
-        // Do any additional setup after loading the view.
-    }
-{% endhighlight %} -->
+Working with a friend, we designed the mount and calculated how fast the motor would have to rotate at to counter-act the rotation of the earth. We then wrote Arduino code to run the motor and tested it out. After comparing the photos, the results showed that the mount reduced the amount of star trails compared to not using the mount.
 
 [gh]: https://github.com/nkanetka/Star-Tracking-Mount
