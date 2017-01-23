@@ -25,6 +25,8 @@ Here's a breakdown of my technical skills:
 | `Objective-C++` | 1 Month |
 | `VBA` | 6 Months |
 
+<!-- {::nomarkdown}<div style="border-left:thin #CC0000 solid; height:300px;" />{:/} -->
+
 | Technology | Experience |
 | :------------ | :-------------- |
 | UIKit | 2 Years |
@@ -35,6 +37,8 @@ Here's a breakdown of my technical skills:
 | JSON | 1.5 Years |
 | RESTful API's | 6 Months |
 | Arduino's | 6 Months |
+
+<!-- {::nomarkdown}<div style="border-left:thin #CC0000 solid; height:300px;" />{:/} -->
 
 | Tool | Experience |
 | :------------ | :-------------- |

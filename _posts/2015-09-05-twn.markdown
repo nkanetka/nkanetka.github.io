@@ -12,8 +12,8 @@ permalink: /experience/twn/
 | Date:      | __May 2015 to September 2015__ |
 | Website:     |    __[Radar Map][twn-radar]{:target="_blank"}__   |
 | Languages:  | `Objective-C`, `Swift`, `JavaScript` |
-| Technologies Used: |  {::nomarkdown}<ul><li>CoreLocation</li><li>Apple Maps</li><li>UIKit</li><li>WebGL</li><li>THREE.js</li></ul>{:/} |
-| Tools Used: |  {::nomarkdown}<ul><li>Xcode</li><li>GeoJSON</li></ul>{:/} |
+| Technologies Used: |  __{::nomarkdown}<ul><li>CoreLocation</li><li>Apple Maps</li><li>UIKit</li><li>WebGL</li><li>THREE.js</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li><li>GeoJSON</li></ul>{:/}__ |
 
 ### Overview
 
@@ -23,18 +23,18 @@ The Weather Network is a leader in providing Canadian's with accurate weather fo
 
 In this role, I took over the iOS project for the vectorization of the radar. Further, working with 2 other coops, we were responsible for the web mobile and backend implementation of the vectorization. Additionally, we were responsible for presenting our work to the director of Product Developement as well as the CTO and COO of Pelmorex Media. Finally, towards the end of the term when the next group of coop students arrived, I was responsible for getting them up to speed on the work that we had done so that they could continue the project.
 
+### Features Worked On
+
+- iOS implementation of the vector radar product
+- Developing shaders to allow overlays for different types of preciptiation
+
 ### Challenges
 
 As this was my first job with iOS, I spent a good portion of it learning the iOS framework and design patterns. Further, the last month of my workterm had me working on WebGL and THREE.js shaders to implement overlays for different types of precipitation (rain, snow and ice).
 
 ### Lessons Learned
 
-- Working as a team involves thinking about how to make others lives easier. If someone needs help, 3 minds working on the problem will likely solve it quicker than 1. 
-
-### Features Worked On
-
-- iOS implementation of the vector radar product
-- Developing shaders to allow overlays for different types of preciptiation
+- Working as a team involves thinking about how to make others lives easier. If someone needs help, 3 minds working on the problem will likely solve it quicker than 1.
 
 
 <!-- Jekyll also offers powerful support for code snippets:
