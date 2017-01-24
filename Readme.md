@@ -1,1 +1,1 @@
-My personal website, which can be found [here](http://nkanetka.github.io). Makes use of [fullpage.js](https://github.com/alvarotrigo/fullPage.js).
+My personal website, which can be found [here](http://nkanetka.github.io).

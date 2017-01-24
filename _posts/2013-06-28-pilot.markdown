@@ -3,7 +3,7 @@ layout: project
 title:  "Pilot"
 date:   2014-06-28
 categories: projects
-thumbnail: "gpx_card.png"
+thumbnail: "pilot_card.png"
 description: "My Personal Experience Becoming a Pilot"
 permalink: /projects/pilot/
 ---
