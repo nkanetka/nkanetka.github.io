@@ -17,40 +17,23 @@ permalink: /experience/twn/
 
 ### Overview
 
-The Weather Network is a leader in providing Canadian's with accurate weather forecasts. As part of this, The Weather Network is always looking for ways to improve their product offering for their customers. One such product is their precipitation radar product. Traditionally, radar products made use of raster photos and animated them at intervals of 15-30 minutes. This resulting in choppy movement between frames, which is undesirable. The main project that I worked on focused on vectorizing the precitipation so that the radar images could be animated smoothly.
+The Weather Network is a leader in providing Canadians with accurate weather forecasts. As part of this, The Weather Network is always looking for ways to improve their product offering for their customers. One such product is their precipitation radar product. Traditionally, radar products made use of raster photos and animated them at intervals of 15-30 minutes. This resulting in choppy movement between frames, which is undesirable. The main project that I worked on focused on vectorizing the precipitation so that the radar images could be animated smoothly.
 
 ### Responsibilities
 
-In this role, I took over the iOS project for the vectorization of the radar. Further, working with 2 other coops, we were responsible for the web mobile and backend implementation of the vectorization. Additionally, we were responsible for presenting our work to the director of Product Developement as well as the CTO and COO of Pelmorex Media. Finally, towards the end of the term when the next group of coop students arrived, I was responsible for getting them up to speed on the work that we had done so that they could continue the project.
+In this role, I took over the iOS project for the vectorization of the radar. Further, working with 2 other coops, we were responsible for the web mobile and backend implementation of the vectorization. Additionally, we were responsible for presenting our work to the director of Product Development as well as the CTO and COO of Pelmorex Media. Finally, towards the end of the term when the next group of coop students arrived, I was responsible for getting them up to speed on the work that we had done so that they could continue the project.
 
 ### Features Worked On
 
 - iOS implementation of the vector radar product
-- Developing shaders to allow overlays for different types of preciptiation
+- Developing shaders to allow overlays for different types of precipitation
 
 ### Challenges
 
-As this was my first job with iOS, I spent a good portion of it learning the iOS framework and design patterns. Further, the last month of my workterm had me working on WebGL and THREE.js shaders to implement overlays for different types of precipitation (rain, snow and ice).
+As this was my first job with iOS, I spent a good portion of it learning the iOS framework and design patterns. Further, the last month of my work term had me working on WebGL and THREE.js shaders to implement overlays for different types of precipitation (rain, snow and ice).
 
 ### Lessons Learned
 
 - Working as a team involves thinking about how to make others lives easier. If someone needs help, 3 minds working on the problem will likely solve it quicker than 1.
-
-
-<!-- Jekyll also offers powerful support for code snippets:
-
-{% highlight swift %}
- override func viewDidLoad() {
-        super.viewDidLoad()
-        tv.delegate = self
-        tv.dataSource = self
-
-        tv.alwaysBounceVertical = false
-        
-        nextViewControllerButton.enabled = false
-        nextViewControllerButton.alpha = 0.5
-        // Do any additional setup after loading the view.
-    }
-{% endhighlight %} -->
 
 [twn-radar]: https://www.theweathernetwork.com/ca/maps/satellite-radar
