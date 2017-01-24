@@ -24,7 +24,7 @@ permalink: /experience/nanoleaf/
 At Nanoleaf, my main responsibilities were the design, architecture, implementation and testing of the Nanoleaf iOS app. What that means is that I was responsible for taking a feature and determining where they fit in for users (using Flurry data and user tests to justify choices), how it would fit in technically with our existing technical, creating wireframes and implementation in Objective-C. Further, I took on the responsibility of ensuring the codebase was up to date with the latest HomeKit and iOS API's. I also ensured that the codebase didn't break when new iOS versions were released by setting up a Slack channel that listened to Apple's RSS feed. The most rewarding part was that the changes that I made on the app were high impact -- many of the features I implemented during that term are live on the App Store right now!
 
 ### Features Worked On
-- Implemented an interactive tutorial of key features of the [Nanoleaf Aurora][nanoleaf-aurora]{:target="_blank"} using [Apple's Human Interface Guildelines][apple-hig]{:target="_blank"} on best practices for tutorials
+- Implemented an interactive tutorial of key features of the [Nanoleaf Aurora][nanoleaf-aurora]{:target="_blank"} using [Apple's Human Interface Guidelines][apple-hig]{:target="_blank"} on best practices for tutorials
 - Made the app Universal (iPad) compatible by fixing crashing bugs
 - Reduced customer support calls by implementing a flow within to app that guides users who are having trouble pairing with the Aurora
 - Architected and implemented a feature that allows users to download scenes that Nanoleaf features
@@ -45,22 +45,6 @@ Finally, one thing that I realized this term is that hardware products make deve
 - It's easy to see the little flaws in a company. Focus on what's good and present actionable changes
 - Teaching is difficult - come up with a plan and focus on the high impact items rather than throwing everything at someone
 - No matter how small a product is it needs to have a vision in the current ecosystem to make the highest impact to users
-
-<!-- Jekyll also offers powerful support for code snippets:
-
-{% highlight swift %}
- override func viewDidLoad() {
-        super.viewDidLoad()
-        tv.delegate = self
-        tv.dataSource = self
-
-        tv.alwaysBounceVertical = false
-        
-        nextViewControllerButton.enabled = false
-        nextViewControllerButton.alpha = 0.5
-        // Do any additional setup after loading the view.
-    }
-{% endhighlight %} -->
 
 [appstore]: https://itunes.apple.com/ca/app/nanoleaf-smarter-series/id1049333656?mt=8
 [nanoleaf]: https://nanoleaf.me/en/
