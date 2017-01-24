@@ -17,7 +17,7 @@ permalink: /projects/gpx/
 
 ### Problem
 
-iOS developers who use CoreLocation frequently are often thinking about how to test their work. In the past Xcode had a nice way to simulate locations using GPX files, however a drawback was the altitude and course could not be simulated. To get over this, developers used Automation Instruments to set the location that would be passed into the LocationManager. This was great as it allowed developers to test their location based apps within Xcode using JavaScript. The code looked something like this:
+iOS developers who use CoreLocation frequently are often thinking about how to test their work. In the past Xcode had a nice way to simulate locations using GPX files, however a drawback was the altitude and course could not be simulated. To get over this, developers used Automation Instruments to set the location that would be passed into the LocationManager. This was great as it allowed developers to test their location based apps within Xcode using JavaScript. The code looked something like this (Courtesy [Sergii Nezdolii][sergii]):
 
 {% highlight javascript %}
 	var target = UIATarget.localTarget();
@@ -50,3 +50,4 @@ After many attempts to find something to test with, I stumbled upon the [GPX Loc
 [gh]: https://github.com/nkanetka/GpxLocationManager
 [gh-forked]: https://github.com/vermont42/GpxLocationManager
 [apple-dev-forums]: https://forums.developer.apple.com/thread/48936
+[sergii]: http://sergiinezdolii.blogspot.ca/2015/02/ios-simulate-frequent-gps-location.html
