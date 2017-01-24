@@ -43,21 +43,5 @@ When I first started in this role, the researcher was having a lot of trouble ge
 
 *A copy of the thesis can be found [here][lien-thesis]{:target="_blank"}*
 
-<!-- Jekyll also offers powerful support for code snippets:
-
-{% highlight swift %}
- override func viewDidLoad() {
-        super.viewDidLoad()
-        tv.delegate = self
-        tv.dataSource = self
-
-        tv.alwaysBounceVertical = false
-        
-        nextViewControllerButton.enabled = false
-        nextViewControllerButton.alpha = 0.5
-        // Do any additional setup after loading the view.
-    }
-{% endhighlight %} -->
-
 [hcom-lab]: https://uwaterloo.ca/humans-complex-systems-lab/about-humans-complex-systems-lab
 [lien-thesis]: https://uwspace.uwaterloo.ca/bitstream/handle/10012/9633/Lien_Song-Chyi.pdf?sequence=3

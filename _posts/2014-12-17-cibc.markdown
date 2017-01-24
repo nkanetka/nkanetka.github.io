@@ -37,20 +37,4 @@ The pace of work in this jobs was the most challenging. Some days would be very 
 
 - Always be looking for ways to improve process. As a side project, I decided to automate the logging of daily trades. Before I started automating the task, it would take approximately 20-30 minutes to make the report. When I got the task automated, it took less then 5 minutes.
 
-<!-- Jekyll also offers powerful support for code snippets:
-
-{% highlight swift %}
- override func viewDidLoad() {
-        super.viewDidLoad()
-        tv.delegate = self
-        tv.dataSource = self
-
-        tv.alwaysBounceVertical = false
-        
-        nextViewControllerButton.enabled = false
-        nextViewControllerButton.alpha = 0.5
-        // Do any additional setup after loading the view.
-    }
-{% endhighlight %} -->
-
 [cibc-em]: http://www.cibcwm.com/cibc-eportal-web/portal/wm?pageId=home&language=en_CA
