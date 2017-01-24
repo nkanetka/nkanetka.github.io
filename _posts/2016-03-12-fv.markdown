@@ -17,7 +17,7 @@ permalink: /projects/flight-visualization/
 
 ### Problem
 
-I like data visualizations and in avaition there are a few cools ones that show how air traffic moves around the world. One weekend during a coop term I was a bit bored and decided to try my hand at creating one. I've often wondered why no one has created a visualization of an flights that is interactive. Sort of like this one but interactive so that users can zoom in and out and move around.
+I like data visualizations and in aviation there are a few cools ones that show how air traffic moves around the world. One weekend during a coop term I was a bit bored and decided to try my hand at creating one. I've often wondered why no one has created a visualization of an flights that is interactive. Sort of like this one but interactive so that users can zoom in and out and move around.
 
 {::nomarkdown}<iframe style="display:block;" src="https://player.vimeo.com/video/98941796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>{:/}
 

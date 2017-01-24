@@ -25,7 +25,7 @@ Design a way to automatically record and log the time that you takeoff and land.
 
 ### Outcome
 
-I started this project about 1.5 years ago as a personal development side project. Today I am still working on it, with some others helpting too! Even though testing the algorithms has been challenging and working on it after work and school has been tiring we are getting closer to releasing the product. If you are a pilot and are interested in the app, take a look at the [website][td-web]{:target="_blank"} or send me an [email][td-email] if you have any questions.
+I started this project about 1.5 years ago as a personal development side project. Today I am still working on it, with some others helping too! Even though testing the algorithms has been challenging and working on it after work and school has been tiring we are getting closer to releasing the product. If you are a pilot and are interested in the app, take a look at our [website][td-web]{:target="_blank"} or send me an [email][td-email] if you have any questions.
 
 [td-web]: http://touchdownapp.ca/?utm_source=nehal
 [td-email]: mailto:nehal@touchdownapp.ca

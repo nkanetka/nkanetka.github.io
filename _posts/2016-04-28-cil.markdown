@@ -17,11 +17,11 @@ permalink: /experience/cil/
 
 ### Overview
 
-Founded in the fall of 2014, The [Canon Innovation Lab][cil-website]{:target="_blank"} is a small team of designers and developers working to rapidly generate and implemente ideas to respond to the evolving needs in the photography space. The start of my term at the Lab was exciting as it marked the beginning of production development for [Jumpshot][cil-jumpshot]{:target="_blank"}, the Lab's first prototype to go out to users.
+Founded in the fall of 2014, The [Canon Innovation Lab][cil-website]{:target="_blank"} is a small team of designers and developers working to rapidly generate and implement ideas to respond to the evolving needs in the photography space. The start of my term at the Lab was exciting as it marked the beginning of production development for [Jumpshot][cil-jumpshot]{:target="_blank"}, the Lab's first prototype to go out to users.
 
 ### Responsibilities
 
-The start of my term had me building prototypes within the photography space to improve Canon users post capture experience. Working with the other coops in teams of 2, 3 or even alone we would have 2 weeks to scope out an idea and implement something. At the end of the sprint, we would demo what we had done and the team would evaluate if we should continue developing the idea or move onto another project. My term was unique in that the lab was also developing their first production app. This allowed me to work on some production prototypes that will be used in the app in the future. Seeing the production developement process, I also took the responsibility to define good agile development process for handoffs between designers and developer, release processes and our git branching structure.
+The start of my term had me building prototypes within the photography space to improve Canon users post capture experience. Working with the other coops in teams of 2, 3 or even alone we would have 2 weeks to scope out an idea and implement something. At the end of the sprint, we would demo what we had done and the team would evaluate if we should continue developing the idea or move onto another project. My term was unique in that the lab was also developing their first production app. This allowed me to work on some production prototypes that will be used in the app in the future. Seeing the production development process, I also took the responsibility to define good agile development process for handoffs between designers and developer, release processes and our git branching structure.
 
 ### Features Worked On
 *Unfortunately, I can not go into detail about the projects that I worked on or the processes to help make the lab a better more production ready environment.*
@@ -38,22 +38,6 @@ On the production side, one of the most challenging aspects was defining who was
 
 - Planning and process are important even if things are running smoothly. You won't realize you are missing something until everything is on fire
 - Time management is important. Time management and coming up with a vision/plan for implementation is important because the sprint will be over before you know it
-
-<!-- Jekyll also offers powerful support for code snippets:
-
-{% highlight swift %}
- override func viewDidLoad() {
-        super.viewDidLoad()
-        tv.delegate = self
-        tv.dataSource = self
-
-        tv.alwaysBounceVertical = false
-        
-        nextViewControllerButton.enabled = false
-        nextViewControllerButton.alpha = 0.5
-        // Do any additional setup after loading the view.
-    }
-{% endhighlight %} -->
 
 [appstore]: https://itunes.apple.com/ca/app/jumpshot-focus-on-photos-that/id1103410925?mt=8
 [cil-website]: https://canonlabs.io/#/
