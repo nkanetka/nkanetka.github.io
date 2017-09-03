@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "Pilot"
+date:   2014-06-28
+categories: projects
+thumbnail: "pilot_card.png"
+description: "My Personal Experience Becoming a Pilot"
+permalink: /projects/pilot/
+---
+|                      |
+| :------------ | :-------------- |
+| First Flight:      | __June 28 2014__ |
+| First Solo:     |    __September 21, 2014__   |
+| Ratings:  | __Night__ |
+| Current Licenses: |  __TC PPL SEL, FAA PPL SEL__ |
+| Aircraft Flown:  | __C152, C172RG__ |
+
+Flying has been a passion of mine since I was 6 years old. Ever since then, all I have wanted to do is fly planes or do something in the aviation industry. After graduating high school, I went out to a [local flight school][wwfc]{:target="_blank"} and started my flight training. Today I have approximately 135 hours total time and am working towards completing my CPL written test and IFR written test in the next year.
+
+[wwfc]: http://www.wwfc.ca/

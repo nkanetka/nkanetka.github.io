@@ -1,0 +1,378 @@
+/**
+ * Site header
+ */
+.site-header {
+  min-height: 56px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: 56px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: $grey-color-dark;
+      }
+    }
+
+    .trigger {
+      clear: both;
+      display: none;
+    }
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 10px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
+}
+
+
+
+/**
+ * Site footer
+ */
+footer {
+  background: #FFF;
+}
+
+.footer-wrapper {
+  position: relative;
+  padding: $spacing-unit/2;
+  font-size: 12px;
+  div {
+    vertical-align: text-bottom;
+    text-align: center;
+  }
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid $grey-color-light;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+  margin: auto;
+  width: 50%;
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  font-size: 15px;
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+  min-height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify-all;
+  padding: $spacing-unit 0;
+  position: relative;
+  margin-bottom: 100px;
+
+  .table-div {
+    text-align: center;
+  }
+}
+
+.page-content:after {
+}
+
+.site-footer, .page-content:after {
+}
+
+.page-heading {
+  font-size: 20px;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
+/**
+ * Home
+ */
+.home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.home-heading {
+  font-size: 42px;
+  text-align: center;
+}
+
+.home-caption {
+  text-align: center;
+}
+
+.image-div {
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+  background-image: url("DSC_0496.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
+
+.post-content {
+  min-height: 200px;
+  h2 {
+    font-size: 32px;
+
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+
+  h3 {
+    font-size: 26px;
+
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+
+  .one {
+  }
+
+  .two {
+  }
+
+  .grid-link {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      color: #111;
+      transition: all 0.5s ease;
+    }
+  }
+
+  .item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% auto;
+    line-height: $base-line-height;
+    transition: all 0.5s ease;
+
+    &:hover {
+      opacity:0.0;
+      transition: all 0.5s ease;
+    }
+
+    a, h1, h6 {
+      text-decoration: none;
+    }
+
+    .item:hover {
+      visibility: visible;
+    }
+  }
+
+  .post-content, .grid-link {
+    min-height: 200px;
+  }
+
+  .row {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .row:after{ /* clearfix */
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row .column{
+    width: 30%;
+    min-width: 200px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .row .column.double{
+    width: 66%;
+  }
+  
+  .row .column .item{
+    height: 100%;
+    width: 100%;
+  }
+
+  .item {
+    margin: 0px 5px 5px 5px;
+  }
+}

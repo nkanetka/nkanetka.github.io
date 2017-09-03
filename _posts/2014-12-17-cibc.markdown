@@ -1,0 +1,40 @@
+---
+layout: experience
+title:  "CIBC"
+date:   2014-12-17
+categories: jobs
+role:	"Technical Analyst"
+thumbnail: "cibc_card.png"
+permalink: /experience/cibc/
+---
+|                      |
+| :------------ | :-------------- |
+| Date:      | __September 2014 to December 2014__ |
+| Website:     |    __[CIBC][cibc-em]{:target="_blank"}__   |
+| Languages:  | `VBA` |
+| Technologies Used: |  __{::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Project</li></ul>{:/}__ |
+
+### Overview
+
+At CIBC, I worked on the CIBC trading floor in the Equity Markets Technology Division ensuring that trades went through without any issues. Much of my role was Project Management to ensure that we knew where servers physically were and making sure that we had logs of maintenance on servers.
+
+### Responsibilities
+
+1. Keep a log of server changes and note any difference to what we have on file.
+2. Create a log of total daily trades on each server so that we have an exact record of the number of trades going through each server.
+
+### Features Worked On
+
+- Conducted an audit of unused trading connections resulting in $2,000 of savings for CIBC per month
+- Using VBA, I automated the daily recording of trades reducing the time spent on the task by 15-25 minutes
+
+### Challenges
+
+The pace of work in this jobs was the most challenging. Some days would be very slow with little happening on the trade floor. Other days, you would hardly have time to eat lunch so it was very important to plan ahead so that you were prepared for the fast days.
+
+### Lessons Learned
+
+- Always be looking for ways to improve process. As a side project, I decided to automate the logging of daily trades. Before I started automating the task, it would take approximately 20-30 minutes to make the report. When I got the task automated, it took less then 5 minutes.
+
+[cibc-em]: http://www.cibcwm.com/cibc-eportal-web/portal/wm?pageId=home&language=en_CA

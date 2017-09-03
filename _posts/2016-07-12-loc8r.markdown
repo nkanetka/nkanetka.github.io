@@ -1,0 +1,30 @@
+---
+layout: project
+title:  "Location Based Safety Updates"
+date:   2017-01-19
+categories: projects
+thumbnail: "loc8r_card.png"
+description: "Location updates for loved ones"
+permalink: /projects/loc8r/
+---
+|                      |
+| :------------ | :-------------- |
+| First Commit:      | __July 2016__ |
+| Website:     |    __[Github][gh]{:target="_blank"}__   |
+| Languages:  | `Swift` |
+| Technologies Used: |  __{::nomarkdown}<ul><li>CoreLocation</li><li>UIKit</li><li>JSON</li><li>API's</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li></ul>{:/}__ |
+
+### Problem
+
+As part of our SYDE 361 design course, our class was tasked with tackling an X-Prize challenge. The problem space that we selected was earthquake/disaster management.
+
+### Goal
+
+Design a way to allow two-way communication between first responders and citizens during a natural disaster.
+
+### Outcome
+
+Working in Sprints, we came up with different prototypes and concepts that we saw as viable solutions to the communication problem during natural disasters. In the end, our team build an app that gives first responders to know who is safe during a natural disaster.
+
+[gh]: https://github.com/s26mehta/EarthquakeProject

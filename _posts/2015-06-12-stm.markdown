@@ -1,0 +1,30 @@
+---
+layout: project
+title:  "Star Tracking Mount"
+date:   2017-01-19
+categories: projects
+thumbnail: "stm_card.png"
+description: "DIY way to improve photographs of stars"
+permalink: /projects/star-tracking-mount/
+---
+|                      |
+| :------------ | :-------------- |
+| Start Date:      | __June 2015__ |
+| Website:     |    __[Github][gh]{:target="_blank"}__   |
+| Languages:  | `Arduino C`, `Objective-C` |
+| Technologies Used: |  __{::nomarkdown}<ul><li>Arduino</li><li>CoreBluetooth</li></ul>{:/}__ |
+| Tools Used: |  __{::nomarkdown}<ul><li>Hardware Design</li><li>Mechanical Design</li></ul>{:/}__ |
+
+### Problem
+
+I am an avid photographer and particularly like taking photographs of stars. However, one challenge with astrophotography is getting a photograph of a star without any light trails when shooting with exposures greater than about 10s. Traditionally, photographers would purchase stabilizing mounts for thousands of dollars to get photographs. Unfortunately as a student, I can not afford that and decided that I would try and make my own mount.
+
+### Goal
+
+Design a mount that rotates at the same rate as the earth's rotation to reduce the amount of star trails in photographs
+
+### Outcome
+
+Working with a friend, we designed the mount and calculated how fast the motor would have to rotate at to counteract the rotation of the earth. We then wrote Arduino code to run the motor and tested it out. After comparing the photos, the results showed that the mount reduced the amount of star trails compared to not using the mount.
+
+[gh]: https://github.com/nkanetka/Star-Tracking-Mount
