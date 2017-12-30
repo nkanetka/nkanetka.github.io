@@ -1,0 +1,16 @@
+---
+layout: project
+title:  "GPX Location Manager Fork"
+date:   2017-01-19
+categories: projects
+dates: "December 2016 to Present"
+link-source: "GitHub"
+link: "https://github.com/vermont42/GpxLocationManager"
+thumbnail: "gpx_card.png"
+description: "A way to simulate location in iOS"
+---
+
+iOS developers who use CoreLocation frequently are often thinking about how to test their work. In the past Xcode had a nice way to simulate locations using GPX files, however a drawback was the altitude and course could not be simulated. To get over this, developers used Automation Instruments to set the location that would be passed into the LocationManager. This was great as it allowed developers to test their location based apps within Xcode using JavaScript. With Xcode 8 Apple decided to [remove][apple-dev-forums]{:target="_blank"} the Automation Instruments tool in hopes that developers would start using the UI Testing Infrastructure more widely. After many attempts to find something to test with, I stumbled upon the [GPX Location Manager][gh-forked]{:target="_blank"} repo. I quickly realized that it may work and added the Cocoa Pod to my project. When I first tested it, I quickly realized it was not simulating the speed or course that I was passing into it. I started looking into the files and realized that I could modify the code to accept those and did that. I'm happy to say I found a way to simulate location once again.
+
+[gh-forked]: https://github.com/vermont42/GpxLocationManager
+[apple-dev-forums]: https://forums.developer.apple.com/thread/48936

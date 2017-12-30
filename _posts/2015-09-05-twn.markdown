@@ -4,36 +4,12 @@ title:  "The Weather Network"
 date:   2015-09-05
 categories: jobs
 role:	"R&D Software Developer (iOS/Web)"
+location: "Oakville, ON"
+dates: "May 2015 to September 2015"
+link: "https://www.theweathernetwork.com/ca/maps/satellite-radar"
 thumbnail: "twn_card.png"
-permalink: /experience/twn/
 ---
-|                      |
-| :------------ | :-------------- |
-| Date:      | __May 2015 to September 2015__ |
-| Website:     |    __[Radar Map][twn-radar]{:target="_blank"}__   |
-| Languages:  | `Objective-C`, `Swift`, `JavaScript` |
-| Technologies Used: |  __{::nomarkdown}<ul><li>CoreLocation</li><li>Apple Maps</li><li>UIKit</li><li>WebGL</li><li>THREE.js</li></ul>{:/}__ |
-| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li><li>GeoJSON</li></ul>{:/}__ |
 
-### Overview
-
-The Weather Network is a leader in providing Canadians with accurate weather forecasts. As part of this, The Weather Network is always looking for ways to improve their product offering for their customers. One such product is their precipitation radar product. Traditionally, radar products made use of raster photos and animated them at intervals of 15-30 minutes. This resulting in choppy movement between frames, which is undesirable. The main project that I worked on focused on vectorizing the precipitation so that the radar images could be animated smoothly.
-
-### Responsibilities
-
-In this role, I took over the iOS project for the vectorization of the radar. Further, working with 2 other coops, we were responsible for the web mobile and backend implementation of the vectorization. Additionally, we were responsible for presenting our work to the director of Product Development as well as the CTO and COO of Pelmorex Media. Finally, towards the end of the term when the next group of coop students arrived, I was responsible for getting them up to speed on the work that we had done so that they could continue the project.
-
-### Features Worked On
-
-- iOS implementation of the vector radar product
-- Developing shaders to allow overlays for different types of precipitation
-
-### Challenges
-
-As this was my first job with iOS, I spent a good portion of it learning the iOS framework and design patterns. Further, the last month of my work term had me working on WebGL and THREE.js shaders to implement overlays for different types of precipitation (rain, snow and ice).
-
-### Lessons Learned
-
-- Working as a team involves thinking about how to make others lives easier. If someone needs help, 3 minds working on the problem will likely solve it quicker than 1.
+The Weather Network is a leader in providing Canadians with accurate weather forecasts. As part of this, The Weather Network is always looking for ways to improve their product offering for their customers. One such product is their precipitation radar product. Traditionally, radar products made use of raster photos and animated them at intervals of 15-30 minutes. This resulting in choppy movement between frames, which is undesirable. The main project that I worked on focused on vectorizing the precipitation so that the radar images could be animated smoothly. In this role, I took over the iOS project for the vectorization of the radar and also worked on developing custom shaders with `WebGL` and `THREE.js` to allow the overlay of different types of precipitation. At the end of the term we presented the new radar to the CTO, COO and other Pelmorex staff. You can see the radar [here][twn-radar]{:target="_blank"}!
 
 [twn-radar]: https://www.theweathernetwork.com/ca/maps/satellite-radar

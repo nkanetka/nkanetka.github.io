@@ -2,7 +2,7 @@
 layout: project
 title:  "GPX Location Manager Fork"
 date:   2017-01-19
-categories: projects
+categories: project-do-not-remove
 thumbnail: "gpx_card.png"
 description: "A way to simulate location in iOS"
 permalink: /projects/gpx/

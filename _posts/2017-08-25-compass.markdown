@@ -1,0 +1,16 @@
+---
+layout: experience
+title:  "Compass Real Estate"
+date:   2017-08-25
+categories: jobs
+description: "Track your flights at the touch of a button"
+role:	"Mobile Developer"
+location: "New York, NY"
+dates: "May 2017 to August 2017"
+link: "https://itunes.apple.com/app/id1045253459"
+---
+
+Compass is a technology based real estate company based in Manhatten and with officed in numerour major US cities. Going into this term I wanted to get a good understanding of how to build a production level app. During this term, my main project was to re-architect the [Compass Markets app][markets-app-store]{:target="_blank"}, leveraging MVVM in `Swift`, increasing testability of the app by 75%. I also rewrote al unit tests in the app eliminating 2 dependencies on the codebase. Finally, during a company wide hackathon I designed and implemented a novel solution to download and inform users of nearby listings via geo-fenced notifications, without requiring additional user permissions. Over the term, I was exposed to good coding practices with `Swift`, continuous integration and architecting apps.
+
+[markets-app-store]: https://itunes.apple.com/app/id1045253459
+[compass]: https://www.compass.com/

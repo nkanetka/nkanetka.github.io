@@ -3,42 +3,13 @@ layout: experience
 title:  "Canon Innovation Lab"
 date:   2016-04-28
 categories: jobs
-role:	"Lead iOS Developer/Rapid Prototyper"
+role:	"Rapid Prototype Developer"
+location: "Waterloo, ON"
+dates: "January 2016 to April 2016"
+link: "https://itunes.apple.com/ca/app/jumpshot-focus-on-photos-that/id1103410925?mt=8"
 thumbnail: "cil_card.png"
-permalink: /experience/cil/
 ---
-|                      |
-| :------------ | :-------------- |
-| Date:      | __January 2016 to April 2016__ |
-| Website:     |    __[App Store][appstore]{:target="_blank"}__   |
-| Languages:  | `Objective-C`, `Python`, `JavaScript`, `Objective-C++` |
-| Technologies Used: |  __{::nomarkdown}<ul><li>Photos</li><li>UIKit</li><li>OpenCV iOS</li><li>D3.js</li></ul>{:/}__ |
-| Tools Used: |  __{::nomarkdown}<ul><li>Xcode</li><li>TestFlight</li><li>Flurry</li><li>Crashlytics</li><li>Taplytics</li><li>Git</li></ul>{:/}__ |
 
-### Overview
-
-Founded in the fall of 2014, The [Canon Innovation Lab][cil-website]{:target="_blank"} is a small team of designers and developers working to rapidly generate and implement ideas to respond to the evolving needs in the photography space. The start of my term at the Lab was exciting as it marked the beginning of production development for [Jumpshot][cil-jumpshot]{:target="_blank"}, the Lab's first prototype to go out to users.
-
-### Responsibilities
-
-The start of my term had me building prototypes within the photography space to improve Canon users post capture experience. Working with the other coops in teams of 2, 3 or even alone we would have 2 weeks to scope out an idea and implement something. At the end of the sprint, we would demo what we had done and the team would evaluate if we should continue developing the idea or move onto another project. My term was unique in that the lab was also developing their first production app. This allowed me to work on some production prototypes that will be used in the app in the future. Seeing the production development process, I also took the responsibility to define good agile development process for handoffs between designers and developer, release processes and our git branching structure.
-
-### Features Worked On
-*Unfortunately, I can not go into detail about the projects that I worked on or the processes to help make the lab a better more production ready environment.*
-
-### Challenges
-
-As I had experience working in prototyping and production at Canon, I'll speak to both of them.
-
-When prototyping, at the beginning of the sprint we would start out brainstorming with big picture ideas. We would then take those ideas and implement them into prototypes. one of the most challenging aspects I found was taking a broad idea and transforming the core of the idea into one element that was done well at the end of a 2 week sprint.
-
-On the production side, one of the most challenging aspects was defining who was responsible for different processes in the development cycle (such as code reviews and feature verification). What made this challenging was that this was new territory for everyone and we had to determine what worked for us as a team. At the end of my term, I am happy to say that many of these processes were defined and are still in place today!
-
-### Lessons Learned
-
-- Planning and process are important even if things are running smoothly. You won't realize you are missing something until everything is on fire
-- Time management is important. Time management and coming up with a vision/plan for implementation is important because the sprint will be over before you know it
+Founded in the fall of 2014, The Canon Innovation Lab is a small team of designers and developers working to rapidly generate and implement ideas to respond to the evolving needs in the photography space. The start of my term at the Lab was exciting as it marked the beginning of production development for Jumpshot, the Lab's first prototype to go out to users. At Canon, I organized developers to start following a Git flow structure for branching to ensure bugs were isolated. I also got the chance to build a variety of different prototypes within the post capture space which exposed me to technologies such as OpenCV (`Objective-C++`), `D3.js` and `Python`.
 
 [appstore]: https://itunes.apple.com/ca/app/jumpshot-focus-on-photos-that/id1103410925?mt=8
-[cil-website]: https://canonlabs.io/#/
-[cil-jumpshot]: https://canonlabs.io/#/project/jumpshot

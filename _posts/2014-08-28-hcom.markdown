@@ -4,42 +4,14 @@ title:  "HCOM Lab"
 date:   2014-08-28
 categories: jobs
 role:	"Research Assistant"
+location: "Waterloo, ON"
+dates: "August 2014 to April 2015"
+link: https://uwaterloo.ca/humans-complex-systems-lab/about-humans-complex-systems-lab
 thumbnail: "hcom_card.png"
 permalink: /experience/hcom/
 ---
-|                      |
-| :------------ | :-------------- |
-| Date:      | __August 2014 to April 2015__ |
-| Website:     |    __[HCOM Lab][hcom-lab]{:target="_blank"}__   |
-| Languages:  | `VBA` |
-| Technologies Used: |  __{::nomarkdown}<ul><li>VBA</li><li>JIRA</li></ul>{:/}__ |
-| Tools Used: |  __{::nomarkdown}<ul><li>Microsoft Excel</li><li>Microsoft Word</li></ul>{:/}__ |
 
-### Overview
-
-The HCOM Lab is a multi-disciplinary lab that studies how humans interact with complex systems. My role as a research assistant was to help Master's student Samuel Lien with the design of a pilot and Air Traffic Controller (ATC) interface, help collect data and help analyze the data after the completion of the study.
-
-### Responsibilities
-
-1. Recruit pilots and ATC through social media, forums, blogs and personal contacts.
-2. Organize the scheduling of pilots and ATC so that the study could be conducted at times that work both all parties (pilots, ATC and us).
-3. Analyze the recordings of the study for keywords and phrases that would be used to create results.
-4. Contribute to the design of the interfaces using knowledge of both ATC and pilot interfaces
-
-### Features Worked On
-
-- Recruitment strategy
-- Scheduling
-- Data analysis
-- Design of interfaces
-
-### Challenges
-
-When I first started in this role, the researcher was having a lot of trouble getting pilots and ATC's to participate in the study. I took lead of the recruitment and scheduling by going to pilots on social media and using some personal contacts to get the word out about the study. With this work we were able to recruit the number of pilots and ATC's to complete the study within the desired timeframe.
-
-### Lessons Learned
-
-- If you want to get something done, the best thing to do is just start doing it.
+The HCOM Lab is a multi-disciplinary lab that studies how humans interact with complex systems. My role as a research assistant was to help Master's student Samuel Lien with the design of a pilot and Air Traffic Controller (ATC) interface, help collect data and help analyze the data after the completion of the study. In this role, I recruited pilots and ATC through social media, forums, blogs and personal contacts, organized the scheduling of pilots and ATC so that the study could be conducted at times that work both all parties (pilots, ATC and us), analyzed the recordings of the study for keywords and phrases that would be used to create results and contributed to the design of the interfaces using knowledge of both ATC and pilot interfaces.
 
 *A copy of the thesis can be found [here][lien-thesis]{:target="_blank"}*
 

@@ -5,32 +5,16 @@ date:   2017-01-19
 categories: projects
 thumbnail: "fv_card.png"
 description: "Data visualization of flights in one day"
-permalink: /projects/flight-visualization/
+link: "https://github.com/nkanetka/Flight-Visualization"
+link-source: "GitHub"
+dates: "February 2016"
 ---
-|                      |
-| :------------ | :-------------- |
-| First Commit:      | __February 2016__ |
-| Website:     |    __[Website][web]{:target="_blank"}, [Github][gh]{:target="_blank"}__   |
-| Languages:  | `Python`, `JavaScript` |
-| Technologies Used: |  __{::nomarkdown}<ul><li>JavaScript: Google Maps API's</li><li>Python: Beautiful Soup</li></ul>{:/}__ |
-| Tools Used: |  __{::nomarkdown}<ul><li>Google Maps Styling</li></ul>{:/}__ |
 
-### Problem
+I like data visualizations and in aviation there are a few cools ones that show how air traffic moves around the world. One weekend during a coop term I was a bit bored and decided to try my hand at creating one. I've often wondered why no one has created a visualization of an flights that is interactive. Sort of like [this][nats]{:target="_blank"} one but interactive so that users can zoom in and out and move around. I'd seen a few visualizations using `THREE.js` but the maps are not the best. I wanted to try making one with Google Maps so that users could have a good map based to see exactly where flights are flying over.
 
-I like data visualizations and in aviation there are a few cools ones that show how air traffic moves around the world. One weekend during a coop term I was a bit bored and decided to try my hand at creating one. I've often wondered why no one has created a visualization of an flights that is interactive. Sort of like this one but interactive so that users can zoom in and out and move around.
-
-{::nomarkdown}<iframe style="display:block;" src="https://player.vimeo.com/video/98941796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>{:/}
-
-I've seen a few visualizations using THREE.js but the maps are not the best. I wanted to try making one with Google Maps so that users could have a good map based to see exactly where flights are flying over.
-
-### Goals
-
-Implement an interactive visualization of flights using Google Maps.
-
-### Outcome
-
-One of the most challenging aspects of this project was finding a way to get data of historical flights. Unfortunately, the best solution that I could come up with was to brute force read through the html from [Flight Aware][fa-poe936]{:target="_blank"}. Although this worked, it wasn't as easy as I hoped and it is fairly easy for my script to break if Flight Aware changes the way they display data. Having said this, I was able to extract the data, display it to a Google Map and animate the data allowing users to see the flights and be able to interact with it. I would love to spend more time extending this project to take multiple airlines at once and make it easier for users to learn more about specific flights.
+One of the most challenging aspects of this project was finding a way to get data of historical flights. Unfortunately, the best solution that I could come up with was to brute force scrape html from [Flight Aware][fa-poe936]{:target="_blank"} using a `Python` script. Although this worked, it wasn't as easy as I hoped and it is fairly easy for my script to break if Flight Aware changes the way they display data. Having said this, I was able to extract the data, display it to a Google Map and animate the data allowing users to see the flights and be able to interact with it. I would love to spend more time extending this project to take multiple airlines at once and make it easier for users to learn more about specific flights. You can checkout this project [here][web]{:target="_blank"}.
 
 [gh]: https://github.com/nkanetka/Flight-Visualization
 [web]: http://nkanetka.github.io/Flight-Visualization/
 [fa-poe936]: https://flightaware.com/live/flight/POE936/history/20170120/1205Z/KBOS/CYTZ/tracklog
+[nats]: https://player.vimeo.com/video/98941796

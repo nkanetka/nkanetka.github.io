@@ -1,0 +1,16 @@
+---
+layout: experience
+title:  "Touchdown"
+date:   2017-01-19
+categories: jobs
+description: "Track your flights at the touch of a button"
+role:	"iOS Developer & Co-Founder"
+location: "Waterloo, ON"
+dates: "May 2015 to Present"
+link: "http://touchdownapp.ca/?utm_source=nehal"
+---
+
+As a pilot we have to record the time that we takeoff and the time that we land. These are used for maintenance purposes for the amount of time between maintenance cycles. As a pilot I noticed that we would often estimate or even forget to record this time. I thought there must be a better way to record these times and set out looking for a way to do it. Around the same time I started doing iOS development. After looking at some of the iOS API's I thought it would be a cool project to learn iOS development to try and record these times. I started this project about 2.5 years ago as a personal development side project. Today I am still working on it, with some others helping too! Even though testing the algorithms has been challenging and working on it after work and school has been tiring we are getting closer to releasing the product. If you are a pilot and are interested in the app, take a look at our [website][td-web]{:target="_blank"} or send me an [email][td-email] if you have any questions.
+
+[td-web]: http://touchdownapp.ca/?utm_source=nehal
+[td-email]: mailto:nehal@touchdownapp.ca
