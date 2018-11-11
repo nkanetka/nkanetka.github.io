@@ -5,9 +5,7 @@ permalink: /about/
 ---
 ### About Me
 
-Hey there, thanks for dropping by! I'm currently in 4B at the [University of Waterloo][uw-syde]{:target="_blank"}. My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. In my free time I enjoy flying (I have approximately 135 hours in the air), taking [photos][instagram]{:target="_blank"} or working on a side project. Click to learn more about my [personal projects]({{ site.url }}/projects/), where I have [worked]({{ site.url }}/experience/) or take a look at my [resume]({{ site.url }}/assets/Resume-Nehal.pdf){:target="_blank"}.
-
-As for what is next, I am currently looking for full time opportunities as an iOS Engineer.
+Hey there, thanks for dropping by! I am a recent engineering graduate from the [University of Waterloo][uw-syde]{:target="_blank"}. My interests vary from anything space or flying related to learning about technology and how to use it to effectively solve problems. In my free time I enjoy flying (I am a commercial pilot with 200+ hours of flying time), taking [photos][instagram]{:target="_blank"} or working on a side project. Click to learn more about my [personal projects]({{ site.url }}/projects/), where I have [worked]({{ site.url }}/experience/) or take a look at my [resume]({{ site.url }}/assets/Resume-Nehal.pdf){:target="_blank"}.
 
 Again, thanks for dropping by. Feel free to shoot me a [message](mailto:{{site.email}}) if you have any questions.
 

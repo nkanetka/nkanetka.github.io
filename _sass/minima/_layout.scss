@@ -41,7 +41,7 @@
   }
 
   @include media-query($on-palm) {
-    position: absolute;
+    position: relative;
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
@@ -113,7 +113,7 @@ footer {
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -180,11 +180,11 @@ footer {
  * Page content
  */
 .page-content {
-  min-height: 100%;
-  width: 70%;
+  // min-height: 100%0;
+  // width: 70%;
   margin: 0 auto;
   text-align: justify-all;
-  padding: $spacing-unit 0;
+  padding: 2% 10%;
   position: relative;
   margin-bottom: 100px;
 
@@ -249,11 +249,14 @@ footer {
 .image-div {
   width: 100%;
   margin: 0 auto;
-  height: 500px;
+  height: calc(45vh - 20px);
+  min-height: 200px;
+  max-height: 500px;
+  position: absolute;
   background-image: url("DSC_0496.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 /**
@@ -372,7 +375,7 @@ footer {
   .row .column.double{
     width: 66%;
   }
-  
+
   .row .column .item{
     height: 100%;
     width: 100%;
