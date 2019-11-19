@@ -11,6 +11,6 @@ dates: "June 2013 to Present"
 permalink: /projects/pilot/
 ---
 
-Flying has been a passion of mine since I was 6 years old. Ever since then, all I have wanted to do is fly planes or do something in the aviation industry. After graduating high school, I went out to a [local flight school][wwfc]{:target="_blank"} and started my flight training. Today I have approximately 135 hours total time and am working towards completing my CPL written test and IFR written test in the next year.
+Flying has been a passion of mine since I was 6 years old. Ever since then, all I have wanted to do is fly planes or do something in the aviation industry. After graduating high school, I went out to a [local flight school][wwfc]{:target="_blank"} and started my flight training. Today I have approximately 200 hours total time and am working towards completing my flight instructor rating.
 
 [wwfc]: http://www.wwfc.ca/
