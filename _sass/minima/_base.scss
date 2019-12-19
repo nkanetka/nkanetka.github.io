@@ -111,20 +111,55 @@ a {
   transition: all 0.5s ease;
 
   &:hover {
-    opacity: 0.5;
-    color: $grey-color;
+    opacity: 0.2;
+    color: $link-color;
     transition: all 0.5s ease;
   }
 }
 
-
-.page-link {
+.trigger {
   transition: all 0.5s ease;
-  border-bottom: solid 2px $background-color;
 
   &:hover {
     transition: all 0.5s ease;
-    border-bottom: solid 2px $grey-color;
+
+    .page-link {
+      opacity: 0.2;
+      color: $grey-color;
+      transition: all 0.5s ease;
+
+      &:hover {
+        opacity: 1.0;
+        color: $text-color;
+        transition: all 0.5s ease;
+        border-bottom: solid 2px $text-color;
+      }
+    }
+  }
+
+  .page-link {
+    transition: all 0.5s ease;
+    border-bottom: solid 2px $background-color;
+  }
+}
+
+.footer-link-container {
+  transition: all 0.5s ease;
+
+  &:hover {
+    transition: all 0.5s ease;
+
+    a {
+      opacity: 0.2;
+      color: $grey-color;
+      transition: all 0.5s ease;
+
+      &:hover {
+        opacity: 1.0;
+        color: $text-color;
+        transition: all 0.5s ease;
+      }
+    }
   }
 }
 
