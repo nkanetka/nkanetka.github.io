@@ -4,7 +4,11 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
+<<<<<<< HEAD
     ffi (1.11.2)
+=======
+    ffi (1.11.3)
+>>>>>>> be88e215256a864db9d037fd8bd1486291f0dfdb
     forwardable-extended (2.6.0)
     jekyll (3.6.3)
       addressable (~> 2.4)
@@ -25,7 +29,11 @@ GEM
       listen (~> 3.0)
     kramdown (1.17.0)
     liquid (4.0.3)
+<<<<<<< HEAD
     listen (3.2.0)
+=======
+    listen (3.2.1)
+>>>>>>> be88e215256a864db9d037fd8bd1486291f0dfdb
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
