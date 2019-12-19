@@ -30,7 +30,7 @@ kramdown:
   extensions:
     - nomarkdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
