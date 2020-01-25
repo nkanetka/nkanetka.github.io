@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Nehal Kanetkar
-email: nkanetka@uwaterloo.ca
+email: nkanetka@gmail.ca
 description: > # A personal portfolio website that displays my personal projects, work experience and education.
 footer_tag: "Designed & Developed by Nehal Kanetkar"
 baseurl: "" # the subpath of your site, e.g. /blog
